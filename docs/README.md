@@ -1,8 +1,12 @@
-<img src="https://mypic-1305118058.cos.ap-hongkong.myqcloud.com/img/site_logo_dark_hdpi.svg" width="100" />
+<img src="https://mypic-1305118058.cos.ap-hongkong.myqcloud.com/img/site_logo_light_hdpi.svg" width="100" />
 
 # Virosa
 
+---
+
 ## Docs
+
+---
 
 - [x] [project development plan (项目开发计划)](project-development-plan)
 
@@ -22,8 +26,10 @@
 
 ## Timeline
 
-> 2022-11-22: write project development plan
+--- 
 
-> 2022-11-22: design the logo
+> 2022-11-22: [design] write project development plan
 
-> 2022-11-20: push first commit
+> 2022-11-22: [design] design the logo
+
+> 2022-11-20: [design] push first commit
