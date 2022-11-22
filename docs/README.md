@@ -4,7 +4,7 @@
 
 ## Docs
 
-- [ ] project development plan (项目开发计划)
+- [x] [project development plan (项目开发计划)](project-development-plan)
 
 - [ ] test plan (测试计划)
 
@@ -21,6 +21,8 @@
 - [ ] project development summary (项目开发总结)
 
 ## Timeline
+
+> 2022-11-22: write project development plan
 
 > 2022-11-22: design the logo
 
