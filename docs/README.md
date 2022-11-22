@@ -1,18 +1,27 @@
-# project docs (项目文档)
+<img src="https://mypic-1305118058.cos.ap-hongkong.myqcloud.com/img/site_logo_dark_hdpi.svg" width="100" />
 
-1. project development plan (项目开发计划)
+# Virosa
 
-2. test plan (测试计划)
+## Docs
 
-3. outline design notes (概要设计说明)
+- [ ] project development plan (项目开发计划)
 
-4. detailed design notes (详细设计说明)
+- [ ] test plan (测试计划)
 
-5. database design notes (数据库设计说明)
+- [ ] outline design notes (概要设计说明)
 
-6. instructions for use (使用说明)
+- [ ] detailed design notes (详细设计说明)
 
-7. test analysis report (测试分析报告)
+- [ ] database design notes (数据库设计说明)
 
-8. project development summary (项目开发总结)
+- [ ] instructions for use (使用说明)
 
+- [ ] test analysis report (测试分析报告)
+
+- [ ] project development summary (项目开发总结)
+
+## Timeline
+
+> 2022-11-22: design the logo
+
+> 2022-11-20: push first commit
