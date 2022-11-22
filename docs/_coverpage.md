@@ -10,5 +10,5 @@
 
 - Modern UI and Cross-platform
 
-[GitHub](https://github.com/wlonestar/Virosa)
+[GitHub](https://github.com/wlonestar/virosa)
 [Get Started](#virosa)
