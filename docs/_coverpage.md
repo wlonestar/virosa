@@ -1,6 +1,6 @@
 <!-- _coverpage.md -->
 
-![logo](https://mypic-1305118058.cos.ap-hongkong.myqcloud.com/img/site_logo_dark_hdpi.svg)
+![logo](https://mypic-1305118058.cos.ap-hongkong.myqcloud.com/img/site_logo_light_hdpi.svg)
 
 # Virosa <small>0.0.1</small>
 

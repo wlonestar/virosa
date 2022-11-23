@@ -16,7 +16,7 @@ Modern UI and Cross-platform
 
 - [ ] test plan (测试计划)
 
-- [ ] outline design notes (概要设计说明)
+- [x] outline design notes (概要设计说明)
 
 - [ ] detailed design notes (详细设计说明)
 

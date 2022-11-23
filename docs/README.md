@@ -12,7 +12,7 @@
 
 - [ ] test plan (测试计划)
 
-- [ ] outline design notes (概要设计说明)
+- [x] [outline design notes (概要设计说明)](3-outline-design-notes)
 
 - [ ] detailed design notes (详细设计说明)
 
@@ -27,6 +27,8 @@
 ## Timeline
 
 --- 
+
+> 2022-11-23: [design] write outline design notes
 
 > 2022-11-22: [design] write project development plan
 
