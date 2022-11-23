@@ -14,7 +14,7 @@
 
 - [x] [outline design notes (概要设计说明)](3-outline-design-notes)
 
-- [ ] detailed design notes (详细设计说明)
+- [x] [detailed design notes (详细设计说明)](4-detailed-design-notes)
 
 - [ ] database design notes (数据库设计说明)
 

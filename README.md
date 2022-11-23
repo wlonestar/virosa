@@ -18,7 +18,7 @@ Modern UI and Cross-platform
 
 - [x] outline design notes (概要设计说明)
 
-- [ ] detailed design notes (详细设计说明)
+- [x] detailed design notes (详细设计说明)
 
 - [ ] database design notes (数据库设计说明)
 
