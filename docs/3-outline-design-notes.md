@@ -42,15 +42,13 @@
 
 ## 总体设计
 
-todo
-
 ### 处理逻辑
 
 todo
 
 ### 总体结构和模块外部设计
 
-todo
+![](./img/system-structure-diagram.png)
 
 ### 功能分配
 
