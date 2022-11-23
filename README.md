@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./logo/site_logo_dark_hdpi.svg">
-    <img src="./logo/site_logo_light_hdpi.svg" width="200" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://mypic-1305118058.cos.ap-hongkong.myqcloud.com/img/site_logo_dark_hdpi.ico">
+    <img src="https://mypic-1305118058.cos.ap-hongkong.myqcloud.com/img/site_logo_light_hdpi.ico" width="200" />
   </picture>
 </p>
 
