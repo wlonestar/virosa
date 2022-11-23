@@ -28,6 +28,8 @@
 
 --- 
 
+> 2022-11-23: [design] write detailed design notes
+
 > 2022-11-23: [design] write outline design notes
 
 > 2022-11-22: [design] write project development plan
