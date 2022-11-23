@@ -1,6 +1,10 @@
 <p align="center">
-  <img src="./logo/site_logo_dark_hdpi.svg" width="100" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./logo/site_logo_dark_hdpi.svg">
+    <img src="./logo/site_logo_loght_hdpi.svg" width="200" />
+  </picture>
 </p>
+
 
 # Virosa - A Computer Technology Blog Community
 
