@@ -1,0 +1,58 @@
+plugins {
+  id 'java'
+  id 'org.springframework.boot' version '3.0.0'
+  id 'io.spring.dependency-management' version '1.1.0'
+  id "com.github.shalousun.smart-doc" version '2.6.2'
+}
+
+//smartdoc {
+//  configFile = file("src/main/resources/smart-doc.json")
+//}
+
+group = 'com.wjl'
+version = '0.0.1'
+sourceCompatibility = '17'
+
+configurations {
+  compileOnly {
+    extendsFrom annotationProcessor
+  }
+}
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  implementation 'org.springframework.boot:spring-boot-starter-web'
+  implementation 'org.springframework.boot:spring-boot-starter-aop'
+  implementation 'org.springframework.boot:spring-boot-starter-actuator'
+  implementation 'org.springframework.boot:spring-boot-starter-validation'
+
+//  implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+//  implementation 'org.springframework.boot:spring-boot-starter-data-redis'
+//  implementation 'org.springframework.boot:spring-boot-starter-data-elasticsearch'
+
+//  implementation 'org.springframework.boot:spring-boot-starter-mail'
+//  implementation 'org.springframework.boot:spring-boot-starter-quartz'
+
+  implementation 'cn.dev33:sa-token-spring-boot-starter:1.33.0'
+  implementation 'cn.dev33:sa-token-dao-redis-jackson:1.33.0'
+
+  implementation 'org.apache.commons:commons-pool2'
+  implementation 'com.google.guava:guava:31.1-jre'
+  implementation 'com.qcloud:cos_api:5.6.112'
+
+//  runtimeOnly 'org.postgresql:postgresql'
+
+  compileOnly 'org.projectlombok:lombok'
+  developmentOnly 'org.springframework.boot:spring-boot-devtools'
+  annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
+  annotationProcessor 'org.projectlombok:lombok'
+
+  testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+tasks.named('test') {
+  useJUnitPlatform()
+}
