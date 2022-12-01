@@ -6,7 +6,7 @@
 </p>
 
 
-# Virosa - A Computer Technology Blog Community
+# Virosa - A CS Technology Community
 
 Simple and lightweight
 

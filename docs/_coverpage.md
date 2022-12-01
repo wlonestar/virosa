@@ -4,7 +4,7 @@
 
 # Virosa <small>0.0.1</small>
 
-> A Computer Technology Blog Community
+> A CS Technology Community
 
 - Simple and lightweight
 
