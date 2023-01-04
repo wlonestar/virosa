@@ -1,6 +1,7 @@
 package com.wjl.virosa.config;
 
 import cn.dev33.satoken.interceptor.SaInterceptor;
+import com.wjl.virosa.filter.interceptor.RequestInterceptor;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
@@ -16,6 +17,7 @@ public class SaInterceptorConfig implements WebMvcConfigurer {
   @Override
   public void addInterceptors(InterceptorRegistry registry) {
     registry.addInterceptor(new SaInterceptor()).addPathPatterns("/**");
+    registry.addInterceptor(new RequestInterceptor()).addPathPatterns("/**");
   }
 
 }
