@@ -16,8 +16,8 @@ public class RequestInterceptor implements HandlerInterceptor {
   @Override
   public boolean preHandle(
       HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
-    String url = request.getRemoteHost() + "->" + request.getRequestURL().toString();
-    log.debug("{}", url);
+    String url = request.getRemoteHost() + " -> " + request.getRequestURL().toString();
+    log.info("{}", url);
     return HandlerInterceptor.super.preHandle(request, response, handler);
   }
 

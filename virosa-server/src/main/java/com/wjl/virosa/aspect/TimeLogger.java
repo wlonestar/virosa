@@ -46,14 +46,14 @@ public class TimeLogger {
   }
 
   @After("(logClass() || logMethod()) && !notLogMethod()")
-  public void adviceAfter(JoinPoint _joinPoint) {
+  public void adviceAfter(JoinPoint joinPoint) {
     Date end = new Date();
     double res = (end.getTime() - begin.getTime()) / 1000.0;
     log.info("{} cost {} s", methodName, res);
   }
 
   @AfterThrowing("(logClass() || logMethod()) && !notLogMethod()")
-  public void adviceAfterThrowing(JoinPoint _joinPoint) {
+  public void adviceAfterThrowing(JoinPoint joinPoint) {
     log.error("error in {}", methodName);
   }
 
