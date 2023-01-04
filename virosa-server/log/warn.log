@@ -1,2 +1,3 @@
 [2023-01-04 22:40:27][restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
 [2023-01-04 22:41:11][restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[2023-01-04 23:13:33][restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead

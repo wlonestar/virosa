@@ -38,3 +38,23 @@
 [2023-01-04 22:41:12][RMI TCP Connection(3)-192.168.0.104] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 [2023-01-04 22:41:30][SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 [2023-01-04 22:41:30][SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[2023-01-04 23:13:31][background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+[2023-01-04 23:13:31][restartedMain] INFO  com.wjl.virosa.VirosaApplication - Starting VirosaApplication using Java 17.0.2 with PID 9992 (D:\workspace\repo\virosa\virosa-server\build\classes\java\main started by wjl in D:\workspace\repo\virosa\virosa-server)
+[2023-01-04 23:13:31][restartedMain] INFO  com.wjl.virosa.VirosaApplication - No active profile set, falling back to 1 default profile: "default"
+[2023-01-04 23:13:32][restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+[2023-01-04 23:13:32][restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[2023-01-04 23:13:32][restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+[2023-01-04 23:13:32][restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2023-01-04 23:13:32][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[2023-01-04 23:13:32][restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@286acfe8
+[2023-01-04 23:13:32][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[2023-01-04 23:13:32][restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-01-04 23:13:33][restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+[2023-01-04 23:13:33][restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[2023-01-04 23:13:33][restartedMain] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-01-04 23:13:33][restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-01-04 23:13:34][restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+[2023-01-04 23:13:34][restartedMain] INFO  com.wjl.virosa.VirosaApplication - Started VirosaApplication in 3.27 seconds (process running for 4.255)
+[2023-01-04 23:13:34][RMI TCP Connection(2)-192.168.0.104] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-01-04 23:13:37][SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[2023-01-04 23:13:37][SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
