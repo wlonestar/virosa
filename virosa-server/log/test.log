@@ -18,3 +18,5 @@
 [2023-01-04 23:46:49][RMI TCP Connection(2)-192.168.0.104] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 [2023-01-04 23:46:51][http-nio-8088-exec-2] INFO  com.wjl.virosa.filter.interceptor.RequestInterceptor - 127.0.0.1http://localhost:8088/test/hello
 [2023-01-04 23:46:51][http-nio-8088-exec-2] INFO  com.wjl.virosa.aspect.TimeLogger - com.wjl.virosa.controller.HelloController.hello() cost 0.002 s
+[2023-01-04 23:50:17][SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[2023-01-04 23:50:17][SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
