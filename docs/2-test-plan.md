@@ -1,3 +1,3 @@
-# test plan (测试计划)
+# Test plan
 
 todo
