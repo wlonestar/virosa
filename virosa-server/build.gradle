@@ -43,6 +43,8 @@ dependencies {
   implementation 'com.google.guava:guava:31.1-jre'
   implementation 'com.qcloud:cos_api:5.6.123'
 
+  implementation 'com.apifan.common:common-random:1.0.18'
+
   runtimeOnly 'org.postgresql:postgresql'
   compileOnly 'org.projectlombok:lombok'
   developmentOnly 'org.springframework.boot:spring-boot-devtools'
