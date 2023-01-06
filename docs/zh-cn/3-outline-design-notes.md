@@ -1,4 +1,4 @@
-# outline design notes (概要设计说明)
+# 概要设计说明
 
 > author: wjl 2022-11-22
 
@@ -58,4 +58,4 @@ Web 后端服务器响应用户的请求，做出对应的操作。项目规模�
 
 系统的角色有用户、管理员、审核员等，服务端将服务器部署在云平台，数据库暂不单独使用服务器，集成在web服务器中。客户端分为浏览器和客户端两种，二者使用的API一致，通过以太网与服务端交互。
 
-![系统结构图](./img/system-structure-diagram.png)
+![系统结构图](../img/system-structure-diagram.png)

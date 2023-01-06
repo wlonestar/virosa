@@ -4,27 +4,27 @@
 
 ---
 
-## Docs
+## 文档
 
 ---
 
-- [x] [Project development plan](/1-project-development-plan)
+- [x] [项目开发计划](zh-cn/1-project-development-plan)
 
-- [ ] Test plan
+- [ ] 测试计划
 
-- [x] [Outline design description](/3-outline-design-notes)
+- [x] [概要设计说明](zh-cn/3-outline-design-notes)
 
-- [x] [Detailed design description](/4-detailed-design-notes)
+- [x] [详细设计说明](zh-cn/4-detailed-design-notes)
 
-- [ ] Database design specification
+- [ ] 数据库设计说明
 
-- [ ] User manual
+- [ ] 使用说明
 
-- [ ] Test analysis report
+- [ ] 测试分析报告
 
-- [ ] Project development summary
+- [ ] 项目开发总结
 
-## Timeline
+## 时间线
 
 --- 
 

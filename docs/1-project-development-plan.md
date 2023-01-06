@@ -1,31 +1,31 @@
-# project development plan (项目开发计划)
+# Project development plan
 
 > author: wjl 2022-11-22
 
 > still needs to be improved
 
-## 开发目标
+## Development goals
 
-做一个计算机方面的专业技术内容分享交流平台，具有优质的内容和较好的搜索机制。软件简约且轻量，具有现代的界面和良好的交互体验。
+To be a computer professional and technical content sharing and exchange platform, with high-quality content and a better search mechanism. The software is simple and lightweight, with a modern interface and a good interactive experience.
 
-## 计划技术选型
+## Planning technology selection
 
-项目采用C-S/B-S架构，覆盖网页端和移动端。
+The project adopts C-S/B-S architecture, covering both web and mobile terminals.
 
-- 服务端采用 Spring Boot 3.x 及相关组件构建，数据库选择 PostgreSQL
+- The server is built with Spring Boot 3.x and related components, and the database is PostgreSQL
 
-- 网页端计划采用 React 构建
+- The web site is planned to be built with React
 
-- 移动端计划使用 React Native 进行跨平台开发
+- Mobile plans to use React Native for cross-platform development
 
-## 开发周期
+## Development cycle
 
-计划时间三个月（2022-12~2023-02），可能做不完（12月份期末），因为前端方面不熟悉，需要边学边做，界面可能一开始很粗糙，能用就行。
+The planning time is three months (2022-12~2023-02), and it may not be finished (at the end of December), because the front-end is not familiar, you need to learn by doing, the interface may be rough at the beginning, as long as it can be used.
 
-明年准备考研，项目的维护可能会停滞一段时间，后续看心情，应该会继续更新。
+I am preparing for the postgraduate entrance examination next year, and the maintenance of the project may be stagnant for a period of time. Depending on the mood, it should continue to be updated.
 
-## 开发人员
+## Developer
 
-鄙人自己，项目前期暂不开放 PR，因为这个项目主要是想锻炼自己的能力，所以准备自己全干。
+My humble self, the PR is not open in the early stage of the project, because this project mainly wants to exercise my ability, so I am ready to do it all by myself.
 
-后期项目已成雏形会开放 PR，希望各位多提建议。
+The later project has already taken shape and will open PR. I hope you can make more suggestions.

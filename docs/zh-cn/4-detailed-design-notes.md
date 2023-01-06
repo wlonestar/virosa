@@ -1,4 +1,4 @@
-# detailed design notes (详细设计说明)
+# 详细设计说明
 
 > author: wjl 2022-11-23
 
@@ -40,4 +40,4 @@
 
 10. 邮件服务: 向用户发送邮件的服务
 
-![软件结构图](./img/soft-structure-diagram.jpg)
+![软件结构图](../img/soft-structure-diagram.jpg)
