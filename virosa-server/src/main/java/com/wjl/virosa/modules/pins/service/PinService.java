@@ -24,4 +24,10 @@ public interface PinService {
 
   PinView selectById(Long id);
 
+  boolean add(Pin pin);
+
+  boolean update(Pin pin);
+
+  boolean deleteById(Long id);
+
 }

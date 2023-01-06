@@ -17,8 +17,12 @@ public enum RespStatus {
   // TODO: need to add
   NOT_EXIST(31, "object does not exist"),
 
+  OBJECT_NULL(32, "the object is null"),
+
+
   ERROR(50, "server error"),
-  ;
+  PARSE_ERROR(51, "parse error"),
+  PARAM_ERROR(52, "param error");
 
   private final int status;
   private final String message;

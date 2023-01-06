@@ -1,7 +1,7 @@
 {
   "info": {
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-    "_postman_id": "24e7f71e-739b-4916-863f-df73acf36941",
+    "_postman_id": "42a00484-e7cb-471f-937e-ca14febc6ec3",
     "name": "virosa"
   },
   "item": [
@@ -50,7 +50,7 @@
               }
             },
             "url": {
-              "raw": "http://localhost:8088/pin/all/author?authorId=648",
+              "raw": "http://localhost:8088/pin/all/author?authorId=934",
               "protocol": "http",
               "path": [
                 "pin",
@@ -64,7 +64,7 @@
               "query": [
                 {
                   "key": "authorId",
-                  "value": "648",
+                  "value": "934",
                   "description": "authorId"
                 }
               ],
@@ -117,7 +117,7 @@
               }
             },
             "url": {
-              "raw": "http://localhost:8088/pin/page/author?authorId=442",
+              "raw": "http://localhost:8088/pin/page/author?authorId=64",
               "protocol": "http",
               "path": [
                 "pin",
@@ -131,7 +131,7 @@
               "query": [
                 {
                   "key": "authorId",
-                  "value": "442",
+                  "value": "64",
                   "description": "authorId"
                 }
               ],
@@ -154,7 +154,7 @@
               }
             },
             "url": {
-              "raw": "http://localhost:8088/pin/single?id=703",
+              "raw": "http://localhost:8088/pin/single?id=700",
               "protocol": "http",
               "path": [
                 "pin",
@@ -167,7 +167,7 @@
               "query": [
                 {
                   "key": "id",
-                  "value": "703",
+                  "value": "700",
                   "description": "id"
                 }
               ],
@@ -177,6 +177,106 @@
             "header": []
           },
           "description": "select pin by id"
+        },
+        {
+          "name": "add a pin",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"id\": 904,\n  \"content\": \"xmgjqd\",\n  \"createTime\": \"2023-01-06 22:27:21\",\n  \"updateTime\": \"2023-01-06 22:27:21\",\n  \"authorId\": 656\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8088/pin/add",
+              "protocol": "http",
+              "path": [
+                "pin",
+                "add"
+              ],
+              "host": [
+                "localhost"
+              ],
+              "port": "8088",
+              "query": [],
+              "variable": []
+            },
+            "description": "add a pin",
+            "header": []
+          },
+          "description": "add a pin"
+        },
+        {
+          "name": "update pin",
+          "request": {
+            "method": "PUT",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"id\": 384,\n  \"content\": \"dyowvp\",\n  \"createTime\": \"2023-01-06 22:27:21\",\n  \"updateTime\": \"2023-01-06 22:27:21\",\n  \"authorId\": 445\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8088/pin/update",
+              "protocol": "http",
+              "path": [
+                "pin",
+                "update"
+              ],
+              "host": [
+                "localhost"
+              ],
+              "port": "8088",
+              "query": [],
+              "variable": []
+            },
+            "description": "update pin",
+            "header": []
+          },
+          "description": "update pin"
+        },
+        {
+          "name": "delete pin by id",
+          "request": {
+            "method": "DELETE",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8088/pin/delete?id=737",
+              "protocol": "http",
+              "path": [
+                "pin",
+                "delete"
+              ],
+              "host": [
+                "localhost"
+              ],
+              "port": "8088",
+              "query": [
+                {
+                  "key": "id",
+                  "value": "737",
+                  "description": "id"
+                }
+              ],
+              "variable": []
+            },
+            "description": "delete pin by id",
+            "header": []
+          },
+          "description": "delete pin by id"
         }
       ]
     }

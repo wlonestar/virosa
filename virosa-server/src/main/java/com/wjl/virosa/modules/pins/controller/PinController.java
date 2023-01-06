@@ -3,6 +3,7 @@ package com.wjl.virosa.modules.pins.controller;
 import com.wjl.virosa.common.annotation.TimeLog;
 import com.wjl.virosa.common.constant.consts.RespResult;
 import com.wjl.virosa.common.constant.enums.RespStatus;
+import com.wjl.virosa.modules.pins.model.entity.Pin;
 import com.wjl.virosa.modules.pins.model.view.PinView;
 import com.wjl.virosa.modules.pins.service.PinService;
 import jakarta.annotation.Resource;
@@ -10,10 +11,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.web.PageableDefault;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.Objects;
 
@@ -94,7 +92,56 @@ public class PinController {
   public RespResult<?> selectById(@RequestParam(name = "id") Long id) {
     PinView pinView = pinService.selectById(id);
     if (!Objects.equals(pinView, null)) {
+      log.info("{}", pinView);
       return RespResult.success(pinView);
+    }
+    return RespResult.fail(RespStatus.NOT_EXIST);
+  }
+
+  /**
+   * add a pin
+   *
+   * @param pin pin
+   * @return RespResult<?>
+   */
+  @RequestMapping(method = RequestMethod.POST, path = "/add")
+  public RespResult<?> add(@RequestBody Pin pin) {
+    if (!Objects.equals(pin, null)) {
+      pinService.add(pin);
+      return RespResult.success();
+    }
+    return RespResult.fail(RespStatus.OBJECT_NULL);
+  }
+
+  /**
+   * update pin
+   *
+   * @param pin pin
+   * @return RespResult<?>
+   */
+  @RequestMapping(method = RequestMethod.PUT, path = "/update")
+  public RespResult<?> update(@RequestBody Pin pin) {
+    if (!Objects.equals(pin, null)) {
+      boolean flag = pinService.update(pin);
+      if (flag) {
+        return RespResult.success();
+      }
+      return RespResult.fail(RespStatus.NOT_EXIST);
+    }
+    return RespResult.fail(RespStatus.OBJECT_NULL);
+  }
+
+  /**
+   * delete pin by id
+   *
+   * @param id id
+   * @return RespResult<?>
+   */
+  @RequestMapping(method = RequestMethod.DELETE, path = "/delete")
+  public RespResult<?> deleteById(@RequestParam(name = "id") Long id) {
+    boolean flag = pinService.deleteById(id);
+    if (flag) {
+      return RespResult.success();
     }
     return RespResult.fail(RespStatus.NOT_EXIST);
   }

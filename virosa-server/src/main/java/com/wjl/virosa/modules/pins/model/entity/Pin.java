@@ -1,10 +1,11 @@
 package com.wjl.virosa.modules.pins.model.entity;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.*;
 import lombok.Data;
 
 import java.io.Serializable;
-import java.time.Instant;
+import java.time.LocalDateTime;
 
 /**
  * @author <a href="mailto:wlonestar@163.com">wjl</a>
@@ -17,18 +18,21 @@ import java.time.Instant;
 public class Pin implements Serializable {
 
   @Id
-  @Column(name = "id")
-  @GeneratedValue(strategy = GenerationType.IDENTITY)
+  @SequenceGenerator(name = "pin_id_seq", sequenceName = "pin_id_seq", allocationSize = 1)
+  @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "pin_id_seq")
+  @Column(name = "id", updatable = false)
   private Long id;
 
   @Column(name = "content")
   private String content;
 
   @Column(name = "create_time")
-  private Instant createTime;
+  @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss.SSSSSS")
+  private LocalDateTime createTime;
 
   @Column(name = "update_time")
-  private Instant updateTime;
+  @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss.SSSSSS")
+  private LocalDateTime updateTime;
 
   @Column(name = "author_id")
   private Long authorId;
