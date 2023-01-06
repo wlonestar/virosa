@@ -12,11 +12,12 @@ import lombok.Getter;
 @AllArgsConstructor
 public enum RespStatus {
 
-  OK(200, "ok"),
+  OK(20, "ok"),
 
   // TODO: need to add
+  NOT_EXIST(31, "object does not exist"),
 
-  ERROR(500, "server error"),
+  ERROR(50, "server error"),
   ;
 
   private final int status;

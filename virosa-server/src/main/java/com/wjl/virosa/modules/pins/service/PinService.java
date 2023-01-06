@@ -1,6 +1,9 @@
 package com.wjl.virosa.modules.pins.service;
 
 import com.wjl.virosa.modules.pins.model.entity.Pin;
+import com.wjl.virosa.modules.pins.model.view.PinView;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 
 import java.util.List;
 
@@ -11,6 +14,14 @@ import java.util.List;
  */
 public interface PinService {
 
-  List<Pin> selectAll();
+  List<PinView> selectAll();
+
+  List<PinView> selectAllByAuthorId(Long authorId);
+
+  Page<PinView> selectAllByPage(Pageable pageable);
+
+  Page<PinView> selectAllByPageAndAuthorId(Long authorId, Pageable pageable);
+
+  PinView selectById(Long id);
 
 }

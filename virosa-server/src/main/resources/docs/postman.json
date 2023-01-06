@@ -1,0 +1,184 @@
+{
+  "info": {
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_postman_id": "24e7f71e-739b-4916-863f-df73acf36941",
+    "name": "virosa"
+  },
+  "item": [
+    {
+      "name": "pin controller",
+      "item": [
+        {
+          "name": "select all pins",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8088/pin/all",
+              "protocol": "http",
+              "path": [
+                "pin",
+                "all"
+              ],
+              "host": [
+                "localhost"
+              ],
+              "port": "8088",
+              "query": [],
+              "variable": []
+            },
+            "description": "select all pins",
+            "header": []
+          },
+          "description": "select all pins"
+        },
+        {
+          "name": "select all pins by authorId",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8088/pin/all/author?authorId=648",
+              "protocol": "http",
+              "path": [
+                "pin",
+                "all",
+                "author"
+              ],
+              "host": [
+                "localhost"
+              ],
+              "port": "8088",
+              "query": [
+                {
+                  "key": "authorId",
+                  "value": "648",
+                  "description": "authorId"
+                }
+              ],
+              "variable": []
+            },
+            "description": "select all pins by authorId",
+            "header": []
+          },
+          "description": "select all pins by authorId"
+        },
+        {
+          "name": "select all pins by page",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8088/pin/page",
+              "protocol": "http",
+              "path": [
+                "pin",
+                "page"
+              ],
+              "host": [
+                "localhost"
+              ],
+              "port": "8088",
+              "query": [],
+              "variable": []
+            },
+            "description": "select all pins by page",
+            "header": []
+          },
+          "description": "select all pins by page"
+        },
+        {
+          "name": "select all pins by page and by authorId",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8088/pin/page/author?authorId=442",
+              "protocol": "http",
+              "path": [
+                "pin",
+                "page",
+                "author"
+              ],
+              "host": [
+                "localhost"
+              ],
+              "port": "8088",
+              "query": [
+                {
+                  "key": "authorId",
+                  "value": "442",
+                  "description": "authorId"
+                }
+              ],
+              "variable": []
+            },
+            "description": "select all pins by page and by authorId",
+            "header": []
+          },
+          "description": "select all pins by page and by authorId"
+        },
+        {
+          "name": "select pin by id",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8088/pin/single?id=703",
+              "protocol": "http",
+              "path": [
+                "pin",
+                "single"
+              ],
+              "host": [
+                "localhost"
+              ],
+              "port": "8088",
+              "query": [
+                {
+                  "key": "id",
+                  "value": "703",
+                  "description": "id"
+                }
+              ],
+              "variable": []
+            },
+            "description": "select pin by id",
+            "header": []
+          },
+          "description": "select pin by id"
+        }
+      ]
+    }
+  ]
+}

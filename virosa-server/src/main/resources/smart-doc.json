@@ -7,5 +7,6 @@
   "createDebugPage": true,
   "md5EncryptedHtmlName": false,
   "projectName": "virosa",
+  "allInOneDocFileName":"docs",
   "showAuthor": true
 }
