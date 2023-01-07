@@ -1,5 +1,6 @@
 package com.wjl.virosa.modules.comments.model.entity;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.EmbeddedId;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
@@ -19,5 +20,8 @@ public class PostCommentLike implements Serializable {
 
   @EmbeddedId
   private PostCommentLikeId id;
+
+  @Column(name = "type")
+  private Short type;
 
 }

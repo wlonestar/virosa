@@ -20,363 +20,363 @@
 -- Sequence structure for category_id_seq
 -- ----------------------------
 DROP SEQUENCE IF EXISTS "public"."category_id_seq";
-CREATE SEQUENCE "public"."category_id_seq"
-    INCREMENT 1
-    MINVALUE  1
-    MAXVALUE 9223372036854775807
-    START 1
-    CACHE 1;
+CREATE SEQUENCE "public"."category_id_seq" 
+INCREMENT 1
+MINVALUE  1
+MAXVALUE 9223372036854775807
+START 1
+CACHE 1;
 
 -- ----------------------------
 -- Sequence structure for collection_id_seq
 -- ----------------------------
 DROP SEQUENCE IF EXISTS "public"."collection_id_seq";
-CREATE SEQUENCE "public"."collection_id_seq"
-    INCREMENT 1
-    MINVALUE  1
-    MAXVALUE 9223372036854775807
-    START 1
-    CACHE 1;
+CREATE SEQUENCE "public"."collection_id_seq" 
+INCREMENT 1
+MINVALUE  1
+MAXVALUE 9223372036854775807
+START 1
+CACHE 1;
 
 -- ----------------------------
 -- Sequence structure for column_id_seq
 -- ----------------------------
 DROP SEQUENCE IF EXISTS "public"."column_id_seq";
-CREATE SEQUENCE "public"."column_id_seq"
-    INCREMENT 1
-    MINVALUE  1
-    MAXVALUE 9223372036854775807
-    START 1
-    CACHE 1;
+CREATE SEQUENCE "public"."column_id_seq" 
+INCREMENT 1
+MINVALUE  1
+MAXVALUE 9223372036854775807
+START 1
+CACHE 1;
 
 -- ----------------------------
 -- Sequence structure for pin_comment_id_seq
 -- ----------------------------
 DROP SEQUENCE IF EXISTS "public"."pin_comment_id_seq";
-CREATE SEQUENCE "public"."pin_comment_id_seq"
-    INCREMENT 1
-    MINVALUE  1
-    MAXVALUE 9223372036854775807
-    START 1
-    CACHE 1;
+CREATE SEQUENCE "public"."pin_comment_id_seq" 
+INCREMENT 1
+MINVALUE  1
+MAXVALUE 9223372036854775807
+START 1
+CACHE 1;
 
 -- ----------------------------
 -- Sequence structure for pin_comment_like_comment_id_seq
 -- ----------------------------
 DROP SEQUENCE IF EXISTS "public"."pin_comment_like_comment_id_seq";
-CREATE SEQUENCE "public"."pin_comment_like_comment_id_seq"
-    INCREMENT 1
-    MINVALUE  1
-    MAXVALUE 9223372036854775807
-    START 1
-    CACHE 1;
+CREATE SEQUENCE "public"."pin_comment_like_comment_id_seq" 
+INCREMENT 1
+MINVALUE  1
+MAXVALUE 9223372036854775807
+START 1
+CACHE 1;
 
 -- ----------------------------
 -- Sequence structure for pin_comment_like_user_id_seq
 -- ----------------------------
 DROP SEQUENCE IF EXISTS "public"."pin_comment_like_user_id_seq";
-CREATE SEQUENCE "public"."pin_comment_like_user_id_seq"
-    INCREMENT 1
-    MINVALUE  1
-    MAXVALUE 9223372036854775807
-    START 1
-    CACHE 1;
+CREATE SEQUENCE "public"."pin_comment_like_user_id_seq" 
+INCREMENT 1
+MINVALUE  1
+MAXVALUE 9223372036854775807
+START 1
+CACHE 1;
 
 -- ----------------------------
 -- Sequence structure for pin_id_seq
 -- ----------------------------
 DROP SEQUENCE IF EXISTS "public"."pin_id_seq";
-CREATE SEQUENCE "public"."pin_id_seq"
-    INCREMENT 1
-    MINVALUE  1
-    MAXVALUE 9223372036854775807
-    START 1
-    CACHE 1;
+CREATE SEQUENCE "public"."pin_id_seq" 
+INCREMENT 1
+MINVALUE  1
+MAXVALUE 9223372036854775807
+START 1
+CACHE 1;
 
 -- ----------------------------
 -- Sequence structure for pin_like_pin_id_seq
 -- ----------------------------
 DROP SEQUENCE IF EXISTS "public"."pin_like_pin_id_seq";
-CREATE SEQUENCE "public"."pin_like_pin_id_seq"
-    INCREMENT 1
-    MINVALUE  1
-    MAXVALUE 9223372036854775807
-    START 1
-    CACHE 1;
+CREATE SEQUENCE "public"."pin_like_pin_id_seq" 
+INCREMENT 1
+MINVALUE  1
+MAXVALUE 9223372036854775807
+START 1
+CACHE 1;
 
 -- ----------------------------
 -- Sequence structure for pin_like_user_id_seq
 -- ----------------------------
 DROP SEQUENCE IF EXISTS "public"."pin_like_user_id_seq";
-CREATE SEQUENCE "public"."pin_like_user_id_seq"
-    INCREMENT 1
-    MINVALUE  1
-    MAXVALUE 9223372036854775807
-    START 1
-    CACHE 1;
+CREATE SEQUENCE "public"."pin_like_user_id_seq" 
+INCREMENT 1
+MINVALUE  1
+MAXVALUE 9223372036854775807
+START 1
+CACHE 1;
 
 -- ----------------------------
 -- Sequence structure for post_collection_collect_id_seq
 -- ----------------------------
 DROP SEQUENCE IF EXISTS "public"."post_collection_collect_id_seq";
-CREATE SEQUENCE "public"."post_collection_collect_id_seq"
-    INCREMENT 1
-    MINVALUE  1
-    MAXVALUE 9223372036854775807
-    START 1
-    CACHE 1;
+CREATE SEQUENCE "public"."post_collection_collect_id_seq" 
+INCREMENT 1
+MINVALUE  1
+MAXVALUE 9223372036854775807
+START 1
+CACHE 1;
 
 -- ----------------------------
 -- Sequence structure for post_collection_post_id_seq
 -- ----------------------------
 DROP SEQUENCE IF EXISTS "public"."post_collection_post_id_seq";
-CREATE SEQUENCE "public"."post_collection_post_id_seq"
-    INCREMENT 1
-    MINVALUE  1
-    MAXVALUE 9223372036854775807
-    START 1
-    CACHE 1;
+CREATE SEQUENCE "public"."post_collection_post_id_seq" 
+INCREMENT 1
+MINVALUE  1
+MAXVALUE 9223372036854775807
+START 1
+CACHE 1;
 
 -- ----------------------------
 -- Sequence structure for post_column_column_id_seq
 -- ----------------------------
 DROP SEQUENCE IF EXISTS "public"."post_column_column_id_seq";
-CREATE SEQUENCE "public"."post_column_column_id_seq"
-    INCREMENT 1
-    MINVALUE  1
-    MAXVALUE 9223372036854775807
-    START 1
-    CACHE 1;
+CREATE SEQUENCE "public"."post_column_column_id_seq" 
+INCREMENT 1
+MINVALUE  1
+MAXVALUE 9223372036854775807
+START 1
+CACHE 1;
 
 -- ----------------------------
 -- Sequence structure for post_column_post_id_seq
 -- ----------------------------
 DROP SEQUENCE IF EXISTS "public"."post_column_post_id_seq";
-CREATE SEQUENCE "public"."post_column_post_id_seq"
-    INCREMENT 1
-    MINVALUE  1
-    MAXVALUE 9223372036854775807
-    START 1
-    CACHE 1;
+CREATE SEQUENCE "public"."post_column_post_id_seq" 
+INCREMENT 1
+MINVALUE  1
+MAXVALUE 9223372036854775807
+START 1
+CACHE 1;
 
 -- ----------------------------
 -- Sequence structure for post_comment_id_seq
 -- ----------------------------
 DROP SEQUENCE IF EXISTS "public"."post_comment_id_seq";
-CREATE SEQUENCE "public"."post_comment_id_seq"
-    INCREMENT 1
-    MINVALUE  1
-    MAXVALUE 9223372036854775807
-    START 1
-    CACHE 1;
+CREATE SEQUENCE "public"."post_comment_id_seq" 
+INCREMENT 1
+MINVALUE  1
+MAXVALUE 9223372036854775807
+START 1
+CACHE 1;
 
 -- ----------------------------
 -- Sequence structure for post_comment_like_comment_id_seq
 -- ----------------------------
 DROP SEQUENCE IF EXISTS "public"."post_comment_like_comment_id_seq";
-CREATE SEQUENCE "public"."post_comment_like_comment_id_seq"
-    INCREMENT 1
-    MINVALUE  1
-    MAXVALUE 9223372036854775807
-    START 1
-    CACHE 1;
+CREATE SEQUENCE "public"."post_comment_like_comment_id_seq" 
+INCREMENT 1
+MINVALUE  1
+MAXVALUE 9223372036854775807
+START 1
+CACHE 1;
 
 -- ----------------------------
 -- Sequence structure for post_comment_like_user_id_seq
 -- ----------------------------
 DROP SEQUENCE IF EXISTS "public"."post_comment_like_user_id_seq";
-CREATE SEQUENCE "public"."post_comment_like_user_id_seq"
-    INCREMENT 1
-    MINVALUE  1
-    MAXVALUE 9223372036854775807
-    START 1
-    CACHE 1;
+CREATE SEQUENCE "public"."post_comment_like_user_id_seq" 
+INCREMENT 1
+MINVALUE  1
+MAXVALUE 9223372036854775807
+START 1
+CACHE 1;
 
 -- ----------------------------
 -- Sequence structure for post_id_seq
 -- ----------------------------
 DROP SEQUENCE IF EXISTS "public"."post_id_seq";
-CREATE SEQUENCE "public"."post_id_seq"
-    INCREMENT 1
-    MINVALUE  1
-    MAXVALUE 9223372036854775807
-    START 1
-    CACHE 1;
+CREATE SEQUENCE "public"."post_id_seq" 
+INCREMENT 1
+MINVALUE  1
+MAXVALUE 9223372036854775807
+START 1
+CACHE 1;
 
 -- ----------------------------
 -- Sequence structure for post_like_post_id_seq
 -- ----------------------------
 DROP SEQUENCE IF EXISTS "public"."post_like_post_id_seq";
-CREATE SEQUENCE "public"."post_like_post_id_seq"
-    INCREMENT 1
-    MINVALUE  1
-    MAXVALUE 9223372036854775807
-    START 1
-    CACHE 1;
+CREATE SEQUENCE "public"."post_like_post_id_seq" 
+INCREMENT 1
+MINVALUE  1
+MAXVALUE 9223372036854775807
+START 1
+CACHE 1;
 
 -- ----------------------------
 -- Sequence structure for post_like_user_id_seq
 -- ----------------------------
 DROP SEQUENCE IF EXISTS "public"."post_like_user_id_seq";
-CREATE SEQUENCE "public"."post_like_user_id_seq"
-    INCREMENT 1
-    MINVALUE  1
-    MAXVALUE 9223372036854775807
-    START 1
-    CACHE 1;
+CREATE SEQUENCE "public"."post_like_user_id_seq" 
+INCREMENT 1
+MINVALUE  1
+MAXVALUE 9223372036854775807
+START 1
+CACHE 1;
 
 -- ----------------------------
 -- Sequence structure for post_tag_post_id_seq
 -- ----------------------------
 DROP SEQUENCE IF EXISTS "public"."post_tag_post_id_seq";
-CREATE SEQUENCE "public"."post_tag_post_id_seq"
-    INCREMENT 1
-    MINVALUE  1
-    MAXVALUE 9223372036854775807
-    START 1
-    CACHE 1;
+CREATE SEQUENCE "public"."post_tag_post_id_seq" 
+INCREMENT 1
+MINVALUE  1
+MAXVALUE 9223372036854775807
+START 1
+CACHE 1;
 
 -- ----------------------------
 -- Sequence structure for post_tag_tag_id_seq
 -- ----------------------------
 DROP SEQUENCE IF EXISTS "public"."post_tag_tag_id_seq";
-CREATE SEQUENCE "public"."post_tag_tag_id_seq"
-    INCREMENT 1
-    MINVALUE  1
-    MAXVALUE 9223372036854775807
-    START 1
-    CACHE 1;
+CREATE SEQUENCE "public"."post_tag_tag_id_seq" 
+INCREMENT 1
+MINVALUE  1
+MAXVALUE 9223372036854775807
+START 1
+CACHE 1;
 
 -- ----------------------------
 -- Sequence structure for role_id_seq
 -- ----------------------------
 DROP SEQUENCE IF EXISTS "public"."role_id_seq";
-CREATE SEQUENCE "public"."role_id_seq"
-    INCREMENT 1
-    MINVALUE  1
-    MAXVALUE 9223372036854775807
-    START 1
-    CACHE 1;
+CREATE SEQUENCE "public"."role_id_seq" 
+INCREMENT 1
+MINVALUE  1
+MAXVALUE 9223372036854775807
+START 1
+CACHE 1;
 
 -- ----------------------------
 -- Sequence structure for sys_user_id_seq
 -- ----------------------------
 DROP SEQUENCE IF EXISTS "public"."sys_user_id_seq";
-CREATE SEQUENCE "public"."sys_user_id_seq"
-    INCREMENT 1
-    MINVALUE  1
-    MAXVALUE 9223372036854775807
-    START 1
-    CACHE 1;
+CREATE SEQUENCE "public"."sys_user_id_seq" 
+INCREMENT 1
+MINVALUE  1
+MAXVALUE 9223372036854775807
+START 1
+CACHE 1;
 
 -- ----------------------------
 -- Sequence structure for tag_follow_follower_id_seq
 -- ----------------------------
 DROP SEQUENCE IF EXISTS "public"."tag_follow_follower_id_seq";
-CREATE SEQUENCE "public"."tag_follow_follower_id_seq"
-    INCREMENT 1
-    MINVALUE  1
-    MAXVALUE 9223372036854775807
-    START 1
-    CACHE 1;
+CREATE SEQUENCE "public"."tag_follow_follower_id_seq" 
+INCREMENT 1
+MINVALUE  1
+MAXVALUE 9223372036854775807
+START 1
+CACHE 1;
 
 -- ----------------------------
 -- Sequence structure for tag_follow_tag_id_seq
 -- ----------------------------
 DROP SEQUENCE IF EXISTS "public"."tag_follow_tag_id_seq";
-CREATE SEQUENCE "public"."tag_follow_tag_id_seq"
-    INCREMENT 1
-    MINVALUE  1
-    MAXVALUE 9223372036854775807
-    START 1
-    CACHE 1;
+CREATE SEQUENCE "public"."tag_follow_tag_id_seq" 
+INCREMENT 1
+MINVALUE  1
+MAXVALUE 9223372036854775807
+START 1
+CACHE 1;
 
 -- ----------------------------
 -- Sequence structure for tag_id_seq
 -- ----------------------------
 DROP SEQUENCE IF EXISTS "public"."tag_id_seq";
-CREATE SEQUENCE "public"."tag_id_seq"
-    INCREMENT 1
-    MINVALUE  1
-    MAXVALUE 9223372036854775807
-    START 1
-    CACHE 1;
+CREATE SEQUENCE "public"."tag_id_seq" 
+INCREMENT 1
+MINVALUE  1
+MAXVALUE 9223372036854775807
+START 1
+CACHE 1;
 
 -- ----------------------------
 -- Sequence structure for user_collection_collect_id_seq
 -- ----------------------------
 DROP SEQUENCE IF EXISTS "public"."user_collection_collect_id_seq";
-CREATE SEQUENCE "public"."user_collection_collect_id_seq"
-    INCREMENT 1
-    MINVALUE  1
-    MAXVALUE 9223372036854775807
-    START 1
-    CACHE 1;
+CREATE SEQUENCE "public"."user_collection_collect_id_seq" 
+INCREMENT 1
+MINVALUE  1
+MAXVALUE 9223372036854775807
+START 1
+CACHE 1;
 
 -- ----------------------------
 -- Sequence structure for user_collection_user_id_seq
 -- ----------------------------
 DROP SEQUENCE IF EXISTS "public"."user_collection_user_id_seq";
-CREATE SEQUENCE "public"."user_collection_user_id_seq"
-    INCREMENT 1
-    MINVALUE  1
-    MAXVALUE 9223372036854775807
-    START 1
-    CACHE 1;
+CREATE SEQUENCE "public"."user_collection_user_id_seq" 
+INCREMENT 1
+MINVALUE  1
+MAXVALUE 9223372036854775807
+START 1
+CACHE 1;
 
 -- ----------------------------
 -- Sequence structure for user_column_column_id_seq
 -- ----------------------------
 DROP SEQUENCE IF EXISTS "public"."user_column_column_id_seq";
-CREATE SEQUENCE "public"."user_column_column_id_seq"
-    INCREMENT 1
-    MINVALUE  1
-    MAXVALUE 9223372036854775807
-    START 1
-    CACHE 1;
+CREATE SEQUENCE "public"."user_column_column_id_seq" 
+INCREMENT 1
+MINVALUE  1
+MAXVALUE 9223372036854775807
+START 1
+CACHE 1;
 
 -- ----------------------------
 -- Sequence structure for user_column_user_id_seq
 -- ----------------------------
 DROP SEQUENCE IF EXISTS "public"."user_column_user_id_seq";
-CREATE SEQUENCE "public"."user_column_user_id_seq"
-    INCREMENT 1
-    MINVALUE  1
-    MAXVALUE 9223372036854775807
-    START 1
-    CACHE 1;
+CREATE SEQUENCE "public"."user_column_user_id_seq" 
+INCREMENT 1
+MINVALUE  1
+MAXVALUE 9223372036854775807
+START 1
+CACHE 1;
 
 -- ----------------------------
 -- Sequence structure for user_follow_followed_id_seq
 -- ----------------------------
 DROP SEQUENCE IF EXISTS "public"."user_follow_followed_id_seq";
-CREATE SEQUENCE "public"."user_follow_followed_id_seq"
-    INCREMENT 1
-    MINVALUE  1
-    MAXVALUE 9223372036854775807
-    START 1
-    CACHE 1;
+CREATE SEQUENCE "public"."user_follow_followed_id_seq" 
+INCREMENT 1
+MINVALUE  1
+MAXVALUE 9223372036854775807
+START 1
+CACHE 1;
 
 -- ----------------------------
 -- Sequence structure for user_follow_follower_id_seq
 -- ----------------------------
 DROP SEQUENCE IF EXISTS "public"."user_follow_follower_id_seq";
-CREATE SEQUENCE "public"."user_follow_follower_id_seq"
-    INCREMENT 1
-    MINVALUE  1
-    MAXVALUE 9223372036854775807
-    START 1
-    CACHE 1;
+CREATE SEQUENCE "public"."user_follow_follower_id_seq" 
+INCREMENT 1
+MINVALUE  1
+MAXVALUE 9223372036854775807
+START 1
+CACHE 1;
 
 -- ----------------------------
 -- Table structure for category
 -- ----------------------------
 DROP TABLE IF EXISTS "public"."category";
 CREATE TABLE "public"."category" (
-                                     "id" int8 NOT NULL DEFAULT nextval('category_id_seq'::regclass),
-                                     "name" varchar(255) COLLATE "pg_catalog"."default" NOT NULL,
-                                     "cover" varchar(255) COLLATE "pg_catalog"."default" NOT NULL,
-                                     "description" text COLLATE "pg_catalog"."default"
+  "id" int8 NOT NULL DEFAULT nextval('category_id_seq'::regclass),
+  "name" varchar(255) COLLATE "pg_catalog"."default" NOT NULL,
+  "cover" varchar(255) COLLATE "pg_catalog"."default" NOT NULL,
+  "description" text COLLATE "pg_catalog"."default"
 )
 ;
 
@@ -399,12 +399,12 @@ INSERT INTO "public"."category" VALUES (10, 'Tang Zitao', 'CkebaetVf3', 'I may n
 -- ----------------------------
 DROP TABLE IF EXISTS "public"."collection";
 CREATE TABLE "public"."collection" (
-                                       "id" int8 NOT NULL DEFAULT nextval('collection_id_seq'::regclass),
-                                       "name" varchar(255) COLLATE "pg_catalog"."default" NOT NULL,
-                                       "cover" varchar(255) COLLATE "pg_catalog"."default" NOT NULL,
-                                       "description" text COLLATE "pg_catalog"."default" NOT NULL,
-                                       "create_time" timestamptz(6) NOT NULL,
-                                       "update_time" timestamptz(6) NOT NULL
+  "id" int8 NOT NULL DEFAULT nextval('collection_id_seq'::regclass),
+  "name" varchar(255) COLLATE "pg_catalog"."default" NOT NULL,
+  "cover" varchar(255) COLLATE "pg_catalog"."default" NOT NULL,
+  "description" text COLLATE "pg_catalog"."default" NOT NULL,
+  "create_time" timestamptz(6) NOT NULL,
+  "update_time" timestamptz(6) NOT NULL
 )
 ;
 
@@ -427,12 +427,12 @@ INSERT INTO "public"."collection" VALUES (7, 'Miu Wai San', 'zJyAaSuq58', 'Succe
 -- ----------------------------
 DROP TABLE IF EXISTS "public"."column";
 CREATE TABLE "public"."column" (
-                                   "id" int8 NOT NULL DEFAULT nextval('column_id_seq'::regclass),
-                                   "name" varchar(255) COLLATE "pg_catalog"."default" NOT NULL,
-                                   "cover" varchar(255) COLLATE "pg_catalog"."default" NOT NULL,
-                                   "description" text COLLATE "pg_catalog"."default" NOT NULL,
-                                   "create_time" timestamptz(6) NOT NULL,
-                                   "update_time" timestamptz(6) NOT NULL
+  "id" int8 NOT NULL DEFAULT nextval('column_id_seq'::regclass),
+  "name" varchar(255) COLLATE "pg_catalog"."default" NOT NULL,
+  "cover" varchar(255) COLLATE "pg_catalog"."default" NOT NULL,
+  "description" text COLLATE "pg_catalog"."default" NOT NULL,
+  "create_time" timestamptz(6) NOT NULL,
+  "update_time" timestamptz(6) NOT NULL
 )
 ;
 
@@ -455,11 +455,11 @@ INSERT INTO "public"."column" VALUES (10, 'Zhao Shihan', 'f32QAxU79Q', 'The repo
 -- ----------------------------
 DROP TABLE IF EXISTS "public"."pin";
 CREATE TABLE "public"."pin" (
-                                "id" int8 NOT NULL DEFAULT nextval('pin_id_seq'::regclass),
-                                "content" text COLLATE "pg_catalog"."default" NOT NULL,
-                                "create_time" timestamptz(6) NOT NULL,
-                                "update_time" timestamptz(6) NOT NULL,
-                                "author_id" int8 NOT NULL
+  "id" int8 NOT NULL DEFAULT nextval('pin_id_seq'::regclass),
+  "content" text COLLATE "pg_catalog"."default" NOT NULL,
+  "create_time" timestamptz(6) NOT NULL,
+  "update_time" timestamptz(6) NOT NULL,
+  "author_id" int8 NOT NULL
 )
 ;
 
@@ -482,12 +482,12 @@ INSERT INTO "public"."pin" VALUES (10, 'I may not have gone where I intended to 
 -- ----------------------------
 DROP TABLE IF EXISTS "public"."pin_comment";
 CREATE TABLE "public"."pin_comment" (
-                                        "id" int8 NOT NULL DEFAULT nextval('pin_comment_id_seq'::regclass),
-                                        "content" text COLLATE "pg_catalog"."default" NOT NULL,
-                                        "upload_time" timestamptz(6) NOT NULL,
-                                        "author_id" int8 NOT NULL,
-                                        "pin_id" int8 NOT NULL,
-                                        "parent_id" int8
+  "id" int8 NOT NULL DEFAULT nextval('pin_comment_id_seq'::regclass),
+  "content" text COLLATE "pg_catalog"."default" NOT NULL,
+  "upload_time" timestamptz(6) NOT NULL,
+  "author_id" int8 NOT NULL,
+  "pin_id" int8 NOT NULL,
+  "parent_id" int8
 )
 ;
 
@@ -530,9 +530,9 @@ INSERT INTO "public"."pin_comment" VALUES (28, '明斯克逐一报时分子生�
 -- ----------------------------
 DROP TABLE IF EXISTS "public"."pin_comment_like";
 CREATE TABLE "public"."pin_comment_like" (
-                                             "comment_id" int8 NOT NULL DEFAULT nextval('pin_comment_like_comment_id_seq'::regclass),
-                                             "user_id" int8 NOT NULL DEFAULT nextval('pin_comment_like_user_id_seq'::regclass),
-                                             "type" int2
+  "comment_id" int8 NOT NULL DEFAULT nextval('pin_comment_like_comment_id_seq'::regclass),
+  "user_id" int8 NOT NULL DEFAULT nextval('pin_comment_like_user_id_seq'::regclass),
+  "type" int2
 )
 ;
 COMMENT ON COLUMN "public"."pin_comment_like"."type" IS '0 -> none
@@ -563,9 +563,9 @@ INSERT INTO "public"."pin_comment_like" VALUES (28, 3, NULL);
 -- ----------------------------
 DROP TABLE IF EXISTS "public"."pin_like";
 CREATE TABLE "public"."pin_like" (
-                                     "pin_id" int8 NOT NULL DEFAULT nextval('pin_like_pin_id_seq'::regclass),
-                                     "user_id" int8 NOT NULL DEFAULT nextval('pin_like_user_id_seq'::regclass),
-                                     "type" int2
+  "pin_id" int8 NOT NULL DEFAULT nextval('pin_like_pin_id_seq'::regclass),
+  "user_id" int8 NOT NULL DEFAULT nextval('pin_like_user_id_seq'::regclass),
+  "type" int2
 )
 ;
 COMMENT ON COLUMN "public"."pin_like"."type" IS '0 -> none
@@ -591,15 +591,15 @@ INSERT INTO "public"."pin_like" VALUES (2, 1, 0);
 -- ----------------------------
 DROP TABLE IF EXISTS "public"."post";
 CREATE TABLE "public"."post" (
-                                 "id" int8 NOT NULL DEFAULT nextval('post_id_seq'::regclass),
-                                 "title" varchar(255) COLLATE "pg_catalog"."default" NOT NULL,
-                                 "summary" varchar(1000) COLLATE "pg_catalog"."default" NOT NULL,
-                                 "cover" varchar(255) COLLATE "pg_catalog"."default" NOT NULL,
-                                 "content" text COLLATE "pg_catalog"."default" NOT NULL,
-                                 "create_time" timestamptz(6) NOT NULL,
-                                 "update_time" timestamptz(6) NOT NULL,
-                                 "cate_id" int8 NOT NULL,
-                                 "author_id" int8 NOT NULL
+  "id" int8 NOT NULL DEFAULT nextval('post_id_seq'::regclass),
+  "title" varchar(255) COLLATE "pg_catalog"."default" NOT NULL,
+  "summary" varchar(1000) COLLATE "pg_catalog"."default" NOT NULL,
+  "cover" varchar(255) COLLATE "pg_catalog"."default" NOT NULL,
+  "content" text COLLATE "pg_catalog"."default" NOT NULL,
+  "create_time" timestamptz(6) NOT NULL,
+  "update_time" timestamptz(6) NOT NULL,
+  "cate_id" int8 NOT NULL,
+  "author_id" int8 NOT NULL
 )
 ;
 
@@ -632,8 +632,8 @@ INSERT INTO "public"."post" VALUES (20, 'Mr.', 'X53gNyvaWF', 'mg7nA42DDt', 'Navi
 -- ----------------------------
 DROP TABLE IF EXISTS "public"."post_collection";
 CREATE TABLE "public"."post_collection" (
-                                            "post_id" int8 NOT NULL DEFAULT nextval('post_collection_post_id_seq'::regclass),
-                                            "collect_id" int8 NOT NULL DEFAULT nextval('post_collection_collect_id_seq'::regclass)
+  "post_id" int8 NOT NULL DEFAULT nextval('post_collection_post_id_seq'::regclass),
+  "collect_id" int8 NOT NULL DEFAULT nextval('post_collection_collect_id_seq'::regclass)
 )
 ;
 
@@ -646,8 +646,8 @@ CREATE TABLE "public"."post_collection" (
 -- ----------------------------
 DROP TABLE IF EXISTS "public"."post_column";
 CREATE TABLE "public"."post_column" (
-                                        "post_id" int8 NOT NULL DEFAULT nextval('post_column_post_id_seq'::regclass),
-                                        "column_id" int8 NOT NULL DEFAULT nextval('post_column_column_id_seq'::regclass)
+  "post_id" int8 NOT NULL DEFAULT nextval('post_column_post_id_seq'::regclass),
+  "column_id" int8 NOT NULL DEFAULT nextval('post_column_column_id_seq'::regclass)
 )
 ;
 
@@ -660,12 +660,12 @@ CREATE TABLE "public"."post_column" (
 -- ----------------------------
 DROP TABLE IF EXISTS "public"."post_comment";
 CREATE TABLE "public"."post_comment" (
-                                         "id" int8 NOT NULL DEFAULT nextval('post_comment_id_seq'::regclass),
-                                         "content" text COLLATE "pg_catalog"."default" NOT NULL,
-                                         "upload_time" timestamptz(6) NOT NULL,
-                                         "author_id" int8 NOT NULL,
-                                         "post_id" int8 NOT NULL,
-                                         "parent_id" int8
+  "id" int8 NOT NULL DEFAULT nextval('post_comment_id_seq'::regclass),
+  "content" text COLLATE "pg_catalog"."default" NOT NULL,
+  "upload_time" timestamptz(6) NOT NULL,
+  "author_id" int8 NOT NULL,
+  "post_id" int8 NOT NULL,
+  "parent_id" int8
 )
 ;
 
@@ -693,9 +693,9 @@ INSERT INTO "public"."post_comment" VALUES (10, '有些思维至今官官相护�
 -- ----------------------------
 DROP TABLE IF EXISTS "public"."post_comment_like";
 CREATE TABLE "public"."post_comment_like" (
-                                              "comment_id" int8 NOT NULL DEFAULT nextval('post_comment_like_comment_id_seq'::regclass),
-                                              "user_id" int8 NOT NULL DEFAULT nextval('post_comment_like_user_id_seq'::regclass),
-                                              "type" int2
+  "comment_id" int8 NOT NULL DEFAULT nextval('post_comment_like_comment_id_seq'::regclass),
+  "user_id" int8 NOT NULL DEFAULT nextval('post_comment_like_user_id_seq'::regclass),
+  "type" int2
 )
 ;
 COMMENT ON COLUMN "public"."post_comment_like"."type" IS '0 -> none
@@ -726,9 +726,9 @@ INSERT INTO "public"."post_comment_like" VALUES (14, 4, 1);
 -- ----------------------------
 DROP TABLE IF EXISTS "public"."post_like";
 CREATE TABLE "public"."post_like" (
-                                      "post_id" int8 NOT NULL DEFAULT nextval('post_like_post_id_seq'::regclass),
-                                      "user_id" int8 NOT NULL DEFAULT nextval('post_like_user_id_seq'::regclass),
-                                      "type" int2
+  "post_id" int8 NOT NULL DEFAULT nextval('post_like_post_id_seq'::regclass),
+  "user_id" int8 NOT NULL DEFAULT nextval('post_like_user_id_seq'::regclass),
+  "type" int2
 )
 ;
 COMMENT ON COLUMN "public"."post_like"."type" IS '0 -> none
@@ -759,8 +759,8 @@ INSERT INTO "public"."post_like" VALUES (14, 2, 1);
 -- ----------------------------
 DROP TABLE IF EXISTS "public"."post_tag";
 CREATE TABLE "public"."post_tag" (
-                                     "post_id" int8 NOT NULL DEFAULT nextval('post_tag_post_id_seq'::regclass),
-                                     "tag_id" int8 NOT NULL DEFAULT nextval('post_tag_tag_id_seq'::regclass)
+  "post_id" int8 NOT NULL DEFAULT nextval('post_tag_post_id_seq'::regclass),
+  "tag_id" int8 NOT NULL DEFAULT nextval('post_tag_tag_id_seq'::regclass)
 )
 ;
 
@@ -773,8 +773,8 @@ CREATE TABLE "public"."post_tag" (
 -- ----------------------------
 DROP TABLE IF EXISTS "public"."role";
 CREATE TABLE "public"."role" (
-                                 "id" int8 NOT NULL DEFAULT nextval('role_id_seq'::regclass),
-                                 "name" varchar(255) COLLATE "pg_catalog"."default" NOT NULL
+  "id" int8 NOT NULL DEFAULT nextval('role_id_seq'::regclass),
+  "name" varchar(255) COLLATE "pg_catalog"."default" NOT NULL
 )
 ;
 
@@ -790,16 +790,16 @@ INSERT INTO "public"."role" VALUES (3, 'guest');
 -- ----------------------------
 DROP TABLE IF EXISTS "public"."sys_user";
 CREATE TABLE "public"."sys_user" (
-                                     "id" int8 NOT NULL DEFAULT nextval('sys_user_id_seq'::regclass),
-                                     "username" varchar(255) COLLATE "pg_catalog"."default" NOT NULL,
-                                     "password" varchar(255) COLLATE "pg_catalog"."default" NOT NULL,
-                                     "email" varchar(255) COLLATE "pg_catalog"."default" NOT NULL,
-                                     "avatar" varchar(255) COLLATE "pg_catalog"."default" NOT NULL,
-                                     "bio" varchar(255) COLLATE "pg_catalog"."default",
-                                     "homepage" varchar(255) COLLATE "pg_catalog"."default",
-                                     "intro" varchar(255) COLLATE "pg_catalog"."default",
-                                     "join_time" timestamptz(6) NOT NULL,
-                                     "role_id" int8 NOT NULL
+  "id" int8 NOT NULL DEFAULT nextval('sys_user_id_seq'::regclass),
+  "username" varchar(255) COLLATE "pg_catalog"."default" NOT NULL,
+  "password" varchar(255) COLLATE "pg_catalog"."default" NOT NULL,
+  "email" varchar(255) COLLATE "pg_catalog"."default" NOT NULL,
+  "avatar" varchar(255) COLLATE "pg_catalog"."default" NOT NULL,
+  "bio" varchar(255) COLLATE "pg_catalog"."default",
+  "homepage" varchar(255) COLLATE "pg_catalog"."default",
+  "intro" varchar(255) COLLATE "pg_catalog"."default",
+  "join_time" timestamptz(6) NOT NULL,
+  "role_id" int8 NOT NULL
 )
 ;
 
@@ -816,10 +816,10 @@ INSERT INTO "public"."sys_user" VALUES (4, 'ccc', 'zzz', 'gggg', 'lll', NULL, NU
 -- ----------------------------
 DROP TABLE IF EXISTS "public"."tag";
 CREATE TABLE "public"."tag" (
-                                "id" int8 NOT NULL DEFAULT nextval('tag_id_seq'::regclass),
-                                "name" varchar(255) COLLATE "pg_catalog"."default" NOT NULL,
-                                "cover" varchar(255) COLLATE "pg_catalog"."default" NOT NULL,
-                                "description" text COLLATE "pg_catalog"."default" NOT NULL
+  "id" int8 NOT NULL DEFAULT nextval('tag_id_seq'::regclass),
+  "name" varchar(255) COLLATE "pg_catalog"."default" NOT NULL,
+  "cover" varchar(255) COLLATE "pg_catalog"."default" NOT NULL,
+  "description" text COLLATE "pg_catalog"."default" NOT NULL
 )
 ;
 
@@ -842,8 +842,8 @@ INSERT INTO "public"."tag" VALUES (10, 'Ono Ryota', 'qdHlPQZn99', 'Navicat Cloud
 -- ----------------------------
 DROP TABLE IF EXISTS "public"."tag_follow";
 CREATE TABLE "public"."tag_follow" (
-                                       "tag_id" int8 NOT NULL DEFAULT nextval('tag_follow_tag_id_seq'::regclass),
-                                       "follower_id" int8 NOT NULL DEFAULT nextval('tag_follow_follower_id_seq'::regclass)
+  "tag_id" int8 NOT NULL DEFAULT nextval('tag_follow_tag_id_seq'::regclass),
+  "follower_id" int8 NOT NULL DEFAULT nextval('tag_follow_follower_id_seq'::regclass)
 )
 ;
 
@@ -856,9 +856,9 @@ CREATE TABLE "public"."tag_follow" (
 -- ----------------------------
 DROP TABLE IF EXISTS "public"."user_collection";
 CREATE TABLE "public"."user_collection" (
-                                            "user_id" int8 NOT NULL DEFAULT nextval('user_collection_user_id_seq'::regclass),
-                                            "collect_id" int8 NOT NULL DEFAULT nextval('user_collection_collect_id_seq'::regclass),
-                                            "type" int2 NOT NULL
+  "user_id" int8 NOT NULL DEFAULT nextval('user_collection_user_id_seq'::regclass),
+  "collect_id" int8 NOT NULL DEFAULT nextval('user_collection_collect_id_seq'::regclass),
+  "type" int2 NOT NULL
 )
 ;
 COMMENT ON COLUMN "public"."user_collection"."type" IS '1 -> create private collection
@@ -874,9 +874,9 @@ COMMENT ON COLUMN "public"."user_collection"."type" IS '1 -> create private coll
 -- ----------------------------
 DROP TABLE IF EXISTS "public"."user_column";
 CREATE TABLE "public"."user_column" (
-                                        "user_id" int8 NOT NULL DEFAULT nextval('user_column_user_id_seq'::regclass),
-                                        "column_id" int8 NOT NULL DEFAULT nextval('user_column_column_id_seq'::regclass),
-                                        "type" int2 NOT NULL
+  "user_id" int8 NOT NULL DEFAULT nextval('user_column_user_id_seq'::regclass),
+  "column_id" int8 NOT NULL DEFAULT nextval('user_column_column_id_seq'::regclass),
+  "type" int2 NOT NULL
 )
 ;
 COMMENT ON COLUMN "public"."user_column"."type" IS '1 -> create self column
@@ -891,8 +891,8 @@ COMMENT ON COLUMN "public"."user_column"."type" IS '1 -> create self column
 -- ----------------------------
 DROP TABLE IF EXISTS "public"."user_follow";
 CREATE TABLE "public"."user_follow" (
-                                        "follower_id" int8 NOT NULL DEFAULT nextval('user_follow_follower_id_seq'::regclass),
-                                        "followed_id" int8 NOT NULL DEFAULT nextval('user_follow_followed_id_seq'::regclass)
+  "follower_id" int8 NOT NULL DEFAULT nextval('user_follow_follower_id_seq'::regclass),
+  "followed_id" int8 NOT NULL DEFAULT nextval('user_follow_followed_id_seq'::regclass)
 )
 ;
 COMMENT ON TABLE "public"."user_follow" IS 'follower -> followed
@@ -918,374 +918,374 @@ INSERT INTO "public"."user_follow" VALUES (4, 3);
 -- ----------------------------
 DROP VIEW IF EXISTS "public"."pin_view";
 CREATE VIEW "public"."pin_view" AS  SELECT p.id,
-                                           p.content,
-                                           p.create_time,
-                                           p.update_time,
-                                           p.author_id,
-                                           CASE
-                                               WHEN l.like_num IS NULL THEN 0::bigint
-                                               ELSE l.like_num
-                                               END AS like_num
-                                    FROM pin p
-                                             LEFT JOIN ( SELECT pin_like.pin_id,
-                                                                count(*) AS like_num
-                                                         FROM pin_like
-                                                         WHERE pin_like.type = 1
-                                                         GROUP BY pin_like.pin_id) l ON p.id = l.pin_id;
+    p.content,
+    p.create_time,
+    p.update_time,
+    p.author_id,
+        CASE
+            WHEN l.like_num IS NULL THEN 0::bigint
+            ELSE l.like_num
+        END AS like_num
+   FROM pin p
+     LEFT JOIN ( SELECT pin_like.pin_id,
+            count(*) AS like_num
+           FROM pin_like
+          WHERE pin_like.type = 1
+          GROUP BY pin_like.pin_id) l ON p.id = l.pin_id;
 
 -- ----------------------------
 -- View structure for pin_comment_view
 -- ----------------------------
 DROP VIEW IF EXISTS "public"."pin_comment_view";
 CREATE VIEW "public"."pin_comment_view" AS  SELECT p.id,
-                                                   p.content,
-                                                   p.upload_time,
-                                                   p.author_id,
-                                                   p.pin_id,
-                                                   p.parent_id,
-                                                   CASE
-                                                       WHEN l.like_num IS NULL THEN 0::bigint
-                                                       ELSE l.like_num
-                                                       END AS like_num
-                                            FROM pin_comment p
-                                                     LEFT JOIN ( SELECT pin_comment_like.comment_id,
-                                                                        count(*) AS like_num
-                                                                 FROM pin_comment_like
-                                                                 WHERE pin_comment_like.type = 1
-                                                                 GROUP BY pin_comment_like.comment_id) l ON p.id = l.comment_id;
+    p.content,
+    p.upload_time,
+    p.author_id,
+    p.pin_id,
+    p.parent_id,
+        CASE
+            WHEN l.like_num IS NULL THEN 0::bigint
+            ELSE l.like_num
+        END AS like_num
+   FROM pin_comment p
+     LEFT JOIN ( SELECT pin_comment_like.comment_id,
+            count(*) AS like_num
+           FROM pin_comment_like
+          WHERE pin_comment_like.type = 1
+          GROUP BY pin_comment_like.comment_id) l ON p.id = l.comment_id;
 
 -- ----------------------------
 -- View structure for post_view
 -- ----------------------------
 DROP VIEW IF EXISTS "public"."post_view";
 CREATE VIEW "public"."post_view" AS  SELECT p.id,
-                                            p.title,
-                                            p.summary,
-                                            p.cover,
-                                            p.content,
-                                            p.create_time,
-                                            p.update_time,
-                                            p.cate_id,
-                                            p.author_id,
-                                            CASE
-                                                WHEN l.like_num IS NULL THEN 0::bigint
-                                                ELSE l.like_num
-                                                END AS like_num
-                                     FROM post p
-                                              LEFT JOIN ( SELECT post_like.post_id,
-                                                                 count(*) AS like_num
-                                                          FROM post_like
-                                                          WHERE post_like.type = 1
-                                                          GROUP BY post_like.post_id) l ON p.id = l.post_id;
+    p.title,
+    p.summary,
+    p.cover,
+    p.content,
+    p.create_time,
+    p.update_time,
+    p.cate_id,
+    p.author_id,
+        CASE
+            WHEN l.like_num IS NULL THEN 0::bigint
+            ELSE l.like_num
+        END AS like_num
+   FROM post p
+     LEFT JOIN ( SELECT post_like.post_id,
+            count(*) AS like_num
+           FROM post_like
+          WHERE post_like.type = 1
+          GROUP BY post_like.post_id) l ON p.id = l.post_id;
 
 -- ----------------------------
 -- View structure for post_comment_view
 -- ----------------------------
 DROP VIEW IF EXISTS "public"."post_comment_view";
 CREATE VIEW "public"."post_comment_view" AS  SELECT p.id,
-                                                    p.content,
-                                                    p.upload_time,
-                                                    p.author_id,
-                                                    p.post_id,
-                                                    p.parent_id,
-                                                    CASE
-                                                        WHEN l.like_num IS NULL THEN 0::bigint
-                                                        ELSE l.like_num
-                                                        END AS like_num
-                                             FROM post_comment p
-                                                      LEFT JOIN ( SELECT post_comment_like.comment_id,
-                                                                         count(*) AS like_num
-                                                                  FROM post_comment_like
-                                                                  WHERE post_comment_like.type = 1
-                                                                  GROUP BY post_comment_like.comment_id) l ON p.id = l.comment_id;
+    p.content,
+    p.upload_time,
+    p.author_id,
+    p.post_id,
+    p.parent_id,
+        CASE
+            WHEN l.like_num IS NULL THEN 0::bigint
+            ELSE l.like_num
+        END AS like_num
+   FROM post_comment p
+     LEFT JOIN ( SELECT post_comment_like.comment_id,
+            count(*) AS like_num
+           FROM post_comment_like
+          WHERE post_comment_like.type = 1
+          GROUP BY post_comment_like.comment_id) l ON p.id = l.comment_id;
 
 -- ----------------------------
 -- View structure for tag_view
 -- ----------------------------
 DROP VIEW IF EXISTS "public"."tag_view";
 CREATE VIEW "public"."tag_view" AS  SELECT t.id,
-                                           t.name,
-                                           t.description,
-                                           t.cover,
-                                           CASE
-                                               WHEN follow.follow_num IS NULL THEN 0::bigint
-                                               ELSE follow.follow_num
-                                               END AS follow_num,
-                                           CASE
-                                               WHEN pt.post_num IS NULL THEN 0::bigint
-                                               ELSE pt.post_num
-                                               END AS post_num
-                                    FROM tag t
-                                             LEFT JOIN ( SELECT tag_follow.tag_id AS tag_a,
-                                                                count(*) AS follow_num
-                                                         FROM tag_follow
-                                                         GROUP BY tag_follow.tag_id) follow ON t.id = follow.tag_a
-                                             LEFT JOIN ( SELECT post_tag.tag_id AS tag_b,
-                                                                count(*) AS post_num
-                                                         FROM post_tag
-                                                         GROUP BY post_tag.tag_id) pt ON t.id = pt.tag_b;
+    t.name,
+    t.description,
+    t.cover,
+        CASE
+            WHEN follow.follow_num IS NULL THEN 0::bigint
+            ELSE follow.follow_num
+        END AS follow_num,
+        CASE
+            WHEN pt.post_num IS NULL THEN 0::bigint
+            ELSE pt.post_num
+        END AS post_num
+   FROM tag t
+     LEFT JOIN ( SELECT tag_follow.tag_id AS tag_a,
+            count(*) AS follow_num
+           FROM tag_follow
+          GROUP BY tag_follow.tag_id) follow ON t.id = follow.tag_a
+     LEFT JOIN ( SELECT post_tag.tag_id AS tag_b,
+            count(*) AS post_num
+           FROM post_tag
+          GROUP BY post_tag.tag_id) pt ON t.id = pt.tag_b;
 
 -- ----------------------------
 -- View structure for user_view
 -- ----------------------------
 DROP VIEW IF EXISTS "public"."user_view";
 CREATE VIEW "public"."user_view" AS  SELECT u.id,
-                                            u.username,
-                                            u.password,
-                                            u.email,
-                                            u.avatar,
-                                            u.bio,
-                                            u.homepage,
-                                            u.intro,
-                                            u.join_time,
-                                            CASE
-                                                WHEN follower.follower_num IS NULL THEN 0::bigint
-                                                ELSE follower.follower_num
-                                                END AS follower_num,
-                                            CASE
-                                                WHEN followed.followed_num IS NULL THEN 0::bigint
-                                                ELSE followed.followed_num
-                                                END AS followed_num,
-                                            CASE
-                                                WHEN p.post_like_num IS NULL THEN 0::numeric
-                                                ELSE p.post_like_num
-                                                END AS post_like_num
-                                     FROM sys_user u
-                                              LEFT JOIN ( SELECT user_follow.follower_id,
-                                                                 count(*) AS followed_num
-                                                          FROM user_follow
-                                                          GROUP BY user_follow.follower_id) followed ON u.id = followed.follower_id
-                                              LEFT JOIN ( SELECT user_follow.followed_id,
-                                                                 count(*) AS follower_num
-                                                          FROM user_follow
-                                                          GROUP BY user_follow.followed_id) follower ON u.id = follower.followed_id
-                                              LEFT JOIN ( SELECT post_view.author_id,
-                                                                 sum(post_view.like_num) AS post_like_num
-                                                          FROM post_view
-                                                          GROUP BY post_view.author_id) p ON u.id = p.author_id;
+    u.username,
+    u.password,
+    u.email,
+    u.avatar,
+    u.bio,
+    u.homepage,
+    u.intro,
+    u.join_time,
+        CASE
+            WHEN follower.follower_num IS NULL THEN 0::bigint
+            ELSE follower.follower_num
+        END AS follower_num,
+        CASE
+            WHEN followed.followed_num IS NULL THEN 0::bigint
+            ELSE followed.followed_num
+        END AS followed_num,
+        CASE
+            WHEN p.post_like_num IS NULL THEN 0::numeric
+            ELSE p.post_like_num
+        END AS post_like_num
+   FROM sys_user u
+     LEFT JOIN ( SELECT user_follow.follower_id,
+            count(*) AS followed_num
+           FROM user_follow
+          GROUP BY user_follow.follower_id) followed ON u.id = followed.follower_id
+     LEFT JOIN ( SELECT user_follow.followed_id,
+            count(*) AS follower_num
+           FROM user_follow
+          GROUP BY user_follow.followed_id) follower ON u.id = follower.followed_id
+     LEFT JOIN ( SELECT post_view.author_id,
+            sum(post_view.like_num) AS post_like_num
+           FROM post_view
+          GROUP BY post_view.author_id) p ON u.id = p.author_id;
 
 -- ----------------------------
 -- Alter sequences owned by
 -- ----------------------------
 ALTER SEQUENCE "public"."category_id_seq"
-    OWNED BY "public"."category"."id";
+OWNED BY "public"."category"."id";
 SELECT setval('"public"."category_id_seq"', 1, false);
 
 -- ----------------------------
 -- Alter sequences owned by
 -- ----------------------------
 ALTER SEQUENCE "public"."collection_id_seq"
-    OWNED BY "public"."collection"."id";
+OWNED BY "public"."collection"."id";
 SELECT setval('"public"."collection_id_seq"', 1, false);
 
 -- ----------------------------
 -- Alter sequences owned by
 -- ----------------------------
 ALTER SEQUENCE "public"."column_id_seq"
-    OWNED BY "public"."column"."id";
+OWNED BY "public"."column"."id";
 SELECT setval('"public"."column_id_seq"', 1, false);
 
 -- ----------------------------
 -- Alter sequences owned by
 -- ----------------------------
 ALTER SEQUENCE "public"."pin_comment_id_seq"
-    OWNED BY "public"."pin_comment"."id";
+OWNED BY "public"."pin_comment"."id";
 SELECT setval('"public"."pin_comment_id_seq"', 1, false);
 
 -- ----------------------------
 -- Alter sequences owned by
 -- ----------------------------
 ALTER SEQUENCE "public"."pin_comment_like_comment_id_seq"
-    OWNED BY "public"."pin_comment_like"."comment_id";
+OWNED BY "public"."pin_comment_like"."comment_id";
 SELECT setval('"public"."pin_comment_like_comment_id_seq"', 1, false);
 
 -- ----------------------------
 -- Alter sequences owned by
 -- ----------------------------
 ALTER SEQUENCE "public"."pin_comment_like_user_id_seq"
-    OWNED BY "public"."pin_comment_like"."user_id";
+OWNED BY "public"."pin_comment_like"."user_id";
 SELECT setval('"public"."pin_comment_like_user_id_seq"', 1, false);
 
 -- ----------------------------
 -- Alter sequences owned by
 -- ----------------------------
 ALTER SEQUENCE "public"."pin_id_seq"
-    OWNED BY "public"."pin"."id";
+OWNED BY "public"."pin"."id";
 SELECT setval('"public"."pin_id_seq"', 1, false);
 
 -- ----------------------------
 -- Alter sequences owned by
 -- ----------------------------
 ALTER SEQUENCE "public"."pin_like_pin_id_seq"
-    OWNED BY "public"."pin_like"."pin_id";
+OWNED BY "public"."pin_like"."pin_id";
 SELECT setval('"public"."pin_like_pin_id_seq"', 1, false);
 
 -- ----------------------------
 -- Alter sequences owned by
 -- ----------------------------
 ALTER SEQUENCE "public"."pin_like_user_id_seq"
-    OWNED BY "public"."pin_like"."user_id";
+OWNED BY "public"."pin_like"."user_id";
 SELECT setval('"public"."pin_like_user_id_seq"', 1, false);
 
 -- ----------------------------
 -- Alter sequences owned by
 -- ----------------------------
 ALTER SEQUENCE "public"."post_collection_collect_id_seq"
-    OWNED BY "public"."post_collection"."collect_id";
+OWNED BY "public"."post_collection"."collect_id";
 SELECT setval('"public"."post_collection_collect_id_seq"', 1, false);
 
 -- ----------------------------
 -- Alter sequences owned by
 -- ----------------------------
 ALTER SEQUENCE "public"."post_collection_post_id_seq"
-    OWNED BY "public"."post_collection"."post_id";
+OWNED BY "public"."post_collection"."post_id";
 SELECT setval('"public"."post_collection_post_id_seq"', 1, false);
 
 -- ----------------------------
 -- Alter sequences owned by
 -- ----------------------------
 ALTER SEQUENCE "public"."post_column_column_id_seq"
-    OWNED BY "public"."post_column"."column_id";
+OWNED BY "public"."post_column"."column_id";
 SELECT setval('"public"."post_column_column_id_seq"', 1, false);
 
 -- ----------------------------
 -- Alter sequences owned by
 -- ----------------------------
 ALTER SEQUENCE "public"."post_column_post_id_seq"
-    OWNED BY "public"."post_column"."post_id";
+OWNED BY "public"."post_column"."post_id";
 SELECT setval('"public"."post_column_post_id_seq"', 1, false);
 
 -- ----------------------------
 -- Alter sequences owned by
 -- ----------------------------
 ALTER SEQUENCE "public"."post_comment_id_seq"
-    OWNED BY "public"."post_comment"."id";
+OWNED BY "public"."post_comment"."id";
 SELECT setval('"public"."post_comment_id_seq"', 1, false);
 
 -- ----------------------------
 -- Alter sequences owned by
 -- ----------------------------
 ALTER SEQUENCE "public"."post_comment_like_comment_id_seq"
-    OWNED BY "public"."post_comment_like"."comment_id";
+OWNED BY "public"."post_comment_like"."comment_id";
 SELECT setval('"public"."post_comment_like_comment_id_seq"', 1, false);
 
 -- ----------------------------
 -- Alter sequences owned by
 -- ----------------------------
 ALTER SEQUENCE "public"."post_comment_like_user_id_seq"
-    OWNED BY "public"."post_comment_like"."user_id";
+OWNED BY "public"."post_comment_like"."user_id";
 SELECT setval('"public"."post_comment_like_user_id_seq"', 1, false);
 
 -- ----------------------------
 -- Alter sequences owned by
 -- ----------------------------
 ALTER SEQUENCE "public"."post_id_seq"
-    OWNED BY "public"."post"."id";
+OWNED BY "public"."post"."id";
 SELECT setval('"public"."post_id_seq"', 1, false);
 
 -- ----------------------------
 -- Alter sequences owned by
 -- ----------------------------
 ALTER SEQUENCE "public"."post_like_post_id_seq"
-    OWNED BY "public"."post_like"."post_id";
+OWNED BY "public"."post_like"."post_id";
 SELECT setval('"public"."post_like_post_id_seq"', 1, false);
 
 -- ----------------------------
 -- Alter sequences owned by
 -- ----------------------------
 ALTER SEQUENCE "public"."post_like_user_id_seq"
-    OWNED BY "public"."post_like"."user_id";
+OWNED BY "public"."post_like"."user_id";
 SELECT setval('"public"."post_like_user_id_seq"', 1, false);
 
 -- ----------------------------
 -- Alter sequences owned by
 -- ----------------------------
 ALTER SEQUENCE "public"."post_tag_post_id_seq"
-    OWNED BY "public"."post_tag"."post_id";
+OWNED BY "public"."post_tag"."post_id";
 SELECT setval('"public"."post_tag_post_id_seq"', 1, false);
 
 -- ----------------------------
 -- Alter sequences owned by
 -- ----------------------------
 ALTER SEQUENCE "public"."post_tag_tag_id_seq"
-    OWNED BY "public"."post_tag"."tag_id";
+OWNED BY "public"."post_tag"."tag_id";
 SELECT setval('"public"."post_tag_tag_id_seq"', 1, false);
 
 -- ----------------------------
 -- Alter sequences owned by
 -- ----------------------------
 ALTER SEQUENCE "public"."role_id_seq"
-    OWNED BY "public"."role"."id";
+OWNED BY "public"."role"."id";
 SELECT setval('"public"."role_id_seq"', 1, false);
 
 -- ----------------------------
 -- Alter sequences owned by
 -- ----------------------------
 ALTER SEQUENCE "public"."sys_user_id_seq"
-    OWNED BY "public"."sys_user"."id";
+OWNED BY "public"."sys_user"."id";
 SELECT setval('"public"."sys_user_id_seq"', 1, false);
 
 -- ----------------------------
 -- Alter sequences owned by
 -- ----------------------------
 ALTER SEQUENCE "public"."tag_follow_follower_id_seq"
-    OWNED BY "public"."tag_follow"."follower_id";
+OWNED BY "public"."tag_follow"."follower_id";
 SELECT setval('"public"."tag_follow_follower_id_seq"', 1, false);
 
 -- ----------------------------
 -- Alter sequences owned by
 -- ----------------------------
 ALTER SEQUENCE "public"."tag_follow_tag_id_seq"
-    OWNED BY "public"."tag_follow"."tag_id";
+OWNED BY "public"."tag_follow"."tag_id";
 SELECT setval('"public"."tag_follow_tag_id_seq"', 1, false);
 
 -- ----------------------------
 -- Alter sequences owned by
 -- ----------------------------
 ALTER SEQUENCE "public"."tag_id_seq"
-    OWNED BY "public"."tag"."id";
+OWNED BY "public"."tag"."id";
 SELECT setval('"public"."tag_id_seq"', 1, false);
 
 -- ----------------------------
 -- Alter sequences owned by
 -- ----------------------------
 ALTER SEQUENCE "public"."user_collection_collect_id_seq"
-    OWNED BY "public"."user_collection"."collect_id";
+OWNED BY "public"."user_collection"."collect_id";
 SELECT setval('"public"."user_collection_collect_id_seq"', 1, false);
 
 -- ----------------------------
 -- Alter sequences owned by
 -- ----------------------------
 ALTER SEQUENCE "public"."user_collection_user_id_seq"
-    OWNED BY "public"."user_collection"."user_id";
+OWNED BY "public"."user_collection"."user_id";
 SELECT setval('"public"."user_collection_user_id_seq"', 1, false);
 
 -- ----------------------------
 -- Alter sequences owned by
 -- ----------------------------
 ALTER SEQUENCE "public"."user_column_column_id_seq"
-    OWNED BY "public"."user_column"."column_id";
+OWNED BY "public"."user_column"."column_id";
 SELECT setval('"public"."user_column_column_id_seq"', 1, false);
 
 -- ----------------------------
 -- Alter sequences owned by
 -- ----------------------------
 ALTER SEQUENCE "public"."user_column_user_id_seq"
-    OWNED BY "public"."user_column"."user_id";
+OWNED BY "public"."user_column"."user_id";
 SELECT setval('"public"."user_column_user_id_seq"', 1, false);
 
 -- ----------------------------
 -- Alter sequences owned by
 -- ----------------------------
 ALTER SEQUENCE "public"."user_follow_followed_id_seq"
-    OWNED BY "public"."user_follow"."followed_id";
+OWNED BY "public"."user_follow"."followed_id";
 SELECT setval('"public"."user_follow_followed_id_seq"', 1, false);
 
 -- ----------------------------
 -- Alter sequences owned by
 -- ----------------------------
 ALTER SEQUENCE "public"."user_follow_follower_id_seq"
-    OWNED BY "public"."user_follow"."follower_id";
+OWNED BY "public"."user_follow"."follower_id";
 SELECT setval('"public"."user_follow_follower_id_seq"', 1, false);
 
 -- ----------------------------
