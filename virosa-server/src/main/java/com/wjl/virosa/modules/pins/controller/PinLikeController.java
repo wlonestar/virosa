@@ -61,7 +61,7 @@ public class PinLikeController {
    */
   @RequestMapping(method = RequestMethod.GET, path = "/page")
   public RespResult<?> selectAllByPage(
-      @PageableDefault(sort = "updateTime", direction = Sort.Direction.DESC) Pageable pageable) {
+      @PageableDefault(sort = "type", direction = Sort.Direction.DESC) Pageable pageable) {
     log.info("page={}&size={}&sort={}", pageable.getPageNumber(),
         pageable.getPageSize(), pageable.getSort());
     return RespResult.success(pinLikeService.selectAllByPage(pageable));
@@ -75,8 +75,9 @@ public class PinLikeController {
    * @return RespResult<?>
    */
   @RequestMapping(method = RequestMethod.GET, path = "/page/user")
-  public RespResult<?> selectAllByUserIdAndPage(@RequestParam(name = "userId") Long userId,
-                                                @PageableDefault(sort = "updateTime", direction = Sort.Direction.DESC) Pageable pageable) {
+  public RespResult<?> selectAllByUserIdAndPage(
+      @RequestParam(name = "userId") Long userId,
+      @PageableDefault(sort = "type", direction = Sort.Direction.DESC) Pageable pageable) {
     log.info("page={}&size={}&sort={}", pageable.getPageNumber(),
         pageable.getPageSize(), pageable.getSort());
     return RespResult.success(pinLikeService.selectAllByUserIdAndPage(userId, pageable));
@@ -109,6 +110,7 @@ public class PinLikeController {
   public RespResult<?> add(@RequestBody PinLikeParam param) {
     PinLikeId pinLikeId = new PinLikeId(param.getPinId(), param.getUserId());
     PinLike pinLike = pinLikeService.selectById(pinLikeId);
+    log.info("{}", pinLike);
     if (Objects.equals(pinLike, null)) {
       pinLikeService.add(new PinLike(pinLikeId, param.getType()));
       return RespResult.success();

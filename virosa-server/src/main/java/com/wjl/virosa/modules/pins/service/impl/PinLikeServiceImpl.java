@@ -45,12 +45,12 @@ public class PinLikeServiceImpl implements PinLikeService {
 
   @Override
   public PinLike selectById(PinLikeId id) {
-    return pinLikeRepository.findById(id)
-        .orElse(new PinLike(new PinLikeId(id.getPinId(), id.getUserId()), (short) 0));
+    return pinLikeRepository.findById(id).orElse(null);
   }
 
   @Override
   public boolean add(PinLike pinLike) {
+    // TODO: need to check foreign key constrain
     pinLikeRepository.save(pinLike);
     return true;
   }
