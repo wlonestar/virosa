@@ -79,7 +79,7 @@ public class PinController {
       @PageableDefault(sort = "updateTime", direction = Sort.Direction.DESC) Pageable pageable) {
     log.info("page={}&size={}&sort={}", pageable.getPageNumber(),
         pageable.getPageSize(), pageable.getSort());
-    return RespResult.success(pinService.selectAllByPageAndAuthorId(authorId, pageable));
+    return RespResult.success(pinService.selectAllByAuthorIdAndPage(authorId, pageable));
   }
 
   /**
@@ -92,7 +92,6 @@ public class PinController {
   public RespResult<?> selectById(@RequestParam(name = "id") Long id) {
     PinView pinView = pinService.selectById(id);
     if (!Objects.equals(pinView, null)) {
-      log.info("{}", pinView);
       return RespResult.success(pinView);
     }
     return RespResult.fail(RespStatus.NOT_EXIST);

@@ -20,7 +20,7 @@ public interface PinService {
 
   Page<PinView> selectAllByPage(Pageable pageable);
 
-  Page<PinView> selectAllByPageAndAuthorId(Long authorId, Pageable pageable);
+  Page<PinView> selectAllByAuthorIdAndPage(Long authorId, Pageable pageable);
 
   PinView selectById(Long id);
 

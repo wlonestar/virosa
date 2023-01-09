@@ -1,7 +1,7 @@
 {
   "info": {
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-    "_postman_id": "8160769e-93df-44a5-868f-32bef6500eaa",
+    "_postman_id": "19aeff6c-9ced-4137-9b5f-82a18ea9ec37",
     "name": "virosa"
   },
   "item": [
@@ -50,7 +50,7 @@
               }
             },
             "url": {
-              "raw": "http://localhost:8088/pin/all/author?authorId=481",
+              "raw": "http://localhost:8088/pin/all/author?authorId=824",
               "protocol": "http",
               "path": [
                 "pin",
@@ -64,7 +64,7 @@
               "query": [
                 {
                   "key": "authorId",
-                  "value": "481",
+                  "value": "824",
                   "description": "authorId"
                 }
               ],
@@ -117,7 +117,7 @@
               }
             },
             "url": {
-              "raw": "http://localhost:8088/pin/page/author?authorId=535",
+              "raw": "http://localhost:8088/pin/page/author?authorId=234",
               "protocol": "http",
               "path": [
                 "pin",
@@ -131,7 +131,7 @@
               "query": [
                 {
                   "key": "authorId",
-                  "value": "535",
+                  "value": "234",
                   "description": "authorId"
                 }
               ],
@@ -154,7 +154,7 @@
               }
             },
             "url": {
-              "raw": "http://localhost:8088/pin/single?id=990",
+              "raw": "http://localhost:8088/pin/single?id=519",
               "protocol": "http",
               "path": [
                 "pin",
@@ -167,7 +167,7 @@
               "query": [
                 {
                   "key": "id",
-                  "value": "990",
+                  "value": "519",
                   "description": "id"
                 }
               ],
@@ -184,7 +184,7 @@
             "method": "POST",
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"id\": 265,\n  \"content\": \"v3e95l\",\n  \"createTime\": \"2023-01-09 21:18:12\",\n  \"updateTime\": \"2023-01-09 21:18:12\",\n  \"authorId\": 329\n}",
+              "raw": "{\n  \"id\": 459,\n  \"content\": \"9b0aig\",\n  \"createTime\": \"2023-01-09 23:02:09\",\n  \"updateTime\": \"2023-01-09 23:02:09\",\n  \"authorId\": 399\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -216,7 +216,7 @@
             "method": "PUT",
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"id\": 71,\n  \"content\": \"d1cbu0\",\n  \"createTime\": \"2023-01-09 21:18:12\",\n  \"updateTime\": \"2023-01-09 21:18:12\",\n  \"authorId\": 423\n}",
+              "raw": "{\n  \"id\": 395,\n  \"content\": \"0rxqr4\",\n  \"createTime\": \"2023-01-09 23:02:09\",\n  \"updateTime\": \"2023-01-09 23:02:09\",\n  \"authorId\": 430\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -254,7 +254,7 @@
               }
             },
             "url": {
-              "raw": "http://localhost:8088/pin/delete?id=794",
+              "raw": "http://localhost:8088/pin/delete?id=195",
               "protocol": "http",
               "path": [
                 "pin",
@@ -267,7 +267,7 @@
               "query": [
                 {
                   "key": "id",
-                  "value": "794",
+                  "value": "195",
                   "description": "id"
                 }
               ],
@@ -282,10 +282,289 @@
     },
     {
       "name": "pin like controller",
-      "item": []
+      "item": [
+        {
+          "name": "select all pinLikes",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8088/pin/like/all",
+              "protocol": "http",
+              "path": [
+                "pin",
+                "like",
+                "all"
+              ],
+              "host": [
+                "localhost"
+              ],
+              "port": "8088",
+              "query": [],
+              "variable": []
+            },
+            "description": "select all pinLikes",
+            "header": []
+          },
+          "description": "select all pinLikes"
+        },
+        {
+          "name": "select all pinLikes by userId",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8088/pin/like/user?userId=35",
+              "protocol": "http",
+              "path": [
+                "pin",
+                "like",
+                "user"
+              ],
+              "host": [
+                "localhost"
+              ],
+              "port": "8088",
+              "query": [
+                {
+                  "key": "userId",
+                  "value": "35",
+                  "description": "userId"
+                }
+              ],
+              "variable": []
+            },
+            "description": "select all pinLikes by userId",
+            "header": []
+          },
+          "description": "select all pinLikes by userId"
+        },
+        {
+          "name": "select all pinLikes by page",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8088/pin/like/page",
+              "protocol": "http",
+              "path": [
+                "pin",
+                "like",
+                "page"
+              ],
+              "host": [
+                "localhost"
+              ],
+              "port": "8088",
+              "query": [],
+              "variable": []
+            },
+            "description": "select all pinLikes by page",
+            "header": []
+          },
+          "description": "select all pinLikes by page"
+        },
+        {
+          "name": "select all pinLikes by page",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8088/pin/like/page/user?userId=55",
+              "protocol": "http",
+              "path": [
+                "pin",
+                "like",
+                "page",
+                "user"
+              ],
+              "host": [
+                "localhost"
+              ],
+              "port": "8088",
+              "query": [
+                {
+                  "key": "userId",
+                  "value": "55",
+                  "description": "  userId"
+                }
+              ],
+              "variable": []
+            },
+            "description": "select all pinLikes by page",
+            "header": []
+          },
+          "description": "select all pinLikes by page"
+        },
+        {
+          "name": "select pinLike by id",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8088/pin/like/single?pinId=289&userId=345",
+              "protocol": "http",
+              "path": [
+                "pin",
+                "like",
+                "single"
+              ],
+              "host": [
+                "localhost"
+              ],
+              "port": "8088",
+              "query": [
+                {
+                  "key": "pinId",
+                  "value": "289",
+                  "description": " pinId"
+                },
+                {
+                  "key": "userId",
+                  "value": "345",
+                  "description": "userId"
+                }
+              ],
+              "variable": []
+            },
+            "description": "select pinLike by id",
+            "header": []
+          },
+          "description": "select pinLike by id"
+        },
+        {
+          "name": "add a pinLike",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"pinId\": 607,\n  \"userId\": 257,\n  \"type\": 5658\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8088/pin/like/add",
+              "protocol": "http",
+              "path": [
+                "pin",
+                "like",
+                "add"
+              ],
+              "host": [
+                "localhost"
+              ],
+              "port": "8088",
+              "query": [],
+              "variable": []
+            },
+            "description": "add a pinLike",
+            "header": []
+          },
+          "description": "add a pinLike"
+        },
+        {
+          "name": "update a pinLike\r\nTODO: have not been tested",
+          "request": {
+            "method": "PUT",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"pinId\": 225,\n  \"userId\": 544,\n  \"type\": 763\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8088/pin/like/update",
+              "protocol": "http",
+              "path": [
+                "pin",
+                "like",
+                "update"
+              ],
+              "host": [
+                "localhost"
+              ],
+              "port": "8088",
+              "query": [],
+              "variable": []
+            },
+            "description": "update a pinLike\r\nTODO: have not been tested",
+            "header": []
+          },
+          "description": "update a pinLike\r\nTODO: have not been tested"
+        },
+        {
+          "name": "delete pinLike by id",
+          "request": {
+            "method": "DELETE",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"pinId\": 61,\n  \"userId\": 765\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8088/pin/like/delete",
+              "protocol": "http",
+              "path": [
+                "pin",
+                "like",
+                "delete"
+              ],
+              "host": [
+                "localhost"
+              ],
+              "port": "8088",
+              "query": [],
+              "variable": []
+            },
+            "description": "delete pinLike by id",
+            "header": []
+          },
+          "description": "delete pinLike by id"
+        }
+      ]
     },
     {
-      "name": "auth controller",
+      "name": "auth controller\r\nTODO: Sa-Token 1.33.0 currently not supported Spring Boot 3.x",
       "item": [
         {
           "name": "user login\r\nTODO: can add login by username or email and password ?",
@@ -293,7 +572,7 @@
             "method": "POST",
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"username\": \"clarice.yundt\",\n  \"password\": \"7va8vm\"\n}",
+              "raw": "{\n  \"username\": \"ginette.pfannerstill\",\n  \"password\": \"q0xpn5\"\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -325,7 +604,7 @@
             "method": "POST",
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"username\": \"clarice.yundt\",\n  \"password\": \"lxkbwe\",\n  \"email\": \"libby.morissette@hotmail.com\",\n  \"avatar\": \"or8mqc\",\n  \"joinTime\": \"2023-01-09 21:18:12\",\n  \"roleId\": 57\n}",
+              "raw": "{\n  \"username\": \"ginette.pfannerstill\",\n  \"password\": \"iojhmj\",\n  \"email\": \"xenia.schmidt@hotmail.com\",\n  \"avatar\": \"u6hvo8\",\n  \"joinTime\": \"2023-01-09 23:02:10\",\n  \"roleId\": 451\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -362,7 +641,7 @@
                   "key": "token",
                   "type": "string",
                   "description": "token",
-                  "value": "7krgc5",
+                  "value": "m5tik6",
                   "hasItems": false
                 }
               ]

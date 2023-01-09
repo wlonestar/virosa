@@ -1,6 +1,9 @@
 package com.wjl.virosa.modules.pins.service;
 
 import com.wjl.virosa.modules.pins.model.entity.PinLike;
+import com.wjl.virosa.modules.pins.model.entity.PinLikeId;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 
 import java.util.List;
 
@@ -11,12 +14,20 @@ import java.util.List;
  */
 public interface PinLikeService {
 
+  List<PinLike> selectAll();
+
   List<PinLike> selectAllByUserId(Long userId);
 
-  PinLike selectByPinIdAndUserId(Long pinId, Long userId);
+  Page<PinLike> selectAllByPage(Pageable pageable);
+
+  Page<PinLike> selectAllByUserIdAndPage(Long userId, Pageable pageable);
+
+  PinLike selectById(PinLikeId id);
 
   boolean add(PinLike pinLike);
 
   boolean update(PinLike pinLike);
+
+  boolean deleteById(PinLikeId id);
 
 }

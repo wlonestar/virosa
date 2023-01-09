@@ -5,11 +5,12 @@ import com.wjl.virosa.modules.pins.model.entity.PinLikeId;
 import com.wjl.virosa.modules.pins.repository.PinLikeRepository;
 import com.wjl.virosa.modules.pins.service.PinLikeService;
 import jakarta.annotation.Resource;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Objects;
-import java.util.stream.Collectors;
 
 /**
  * @author <a href="mailto:wlonestar@163.com">wjl</a>
@@ -23,17 +24,29 @@ public class PinLikeServiceImpl implements PinLikeService {
   private PinLikeRepository pinLikeRepository;
 
   @Override
-  public List<PinLike> selectAllByUserId(Long userId) {
-    List<PinLike> pinLikes = pinLikeRepository.findAll();
-    return pinLikes.stream()
-        .filter(pinLike -> pinLike.getId().getUserId().equals(userId))
-        .collect(Collectors.toList());
+  public List<PinLike> selectAll() {
+    return pinLikeRepository.findAll();
   }
 
   @Override
-  public PinLike selectByPinIdAndUserId(Long pinId, Long userId) {
-    return pinLikeRepository.findById(new PinLikeId(pinId, userId))
-        .orElse(new PinLike(new PinLikeId(pinId, userId), (short) 0));
+  public List<PinLike> selectAllByUserId(Long userId) {
+    return pinLikeRepository.findAllByUserId(userId);
+  }
+
+  @Override
+  public Page<PinLike> selectAllByPage(Pageable pageable) {
+    return pinLikeRepository.findAll(pageable);
+  }
+
+  @Override
+  public Page<PinLike> selectAllByUserIdAndPage(Long userId, Pageable pageable) {
+    return pinLikeRepository.findAllByUserIdAndPage(userId, pageable);
+  }
+
+  @Override
+  public PinLike selectById(PinLikeId id) {
+    return pinLikeRepository.findById(id)
+        .orElse(new PinLike(new PinLikeId(id.getPinId(), id.getUserId()), (short) 0));
   }
 
   @Override
@@ -50,6 +63,11 @@ public class PinLikeServiceImpl implements PinLikeService {
       pinLikeRepository.save(newPinLike);
       return true;
     }
+    return false;
+  }
+
+  @Override
+  public boolean deleteById(PinLikeId id) {
     return false;
   }
 

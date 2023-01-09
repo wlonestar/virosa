@@ -13,7 +13,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Objects;
-import java.util.Optional;
 
 /**
  * @author <a href="mailto:wlonestar@163.com">wjl</a>
@@ -46,7 +45,7 @@ public class PinServiceImpl implements PinService {
   }
 
   @Override
-  public Page<PinView> selectAllByPageAndAuthorId(Long authorId, Pageable pageable) {
+  public Page<PinView> selectAllByAuthorIdAndPage(Long authorId, Pageable pageable) {
     return pinViewRepository.findAllByAuthorId(authorId, pageable);
   }
 

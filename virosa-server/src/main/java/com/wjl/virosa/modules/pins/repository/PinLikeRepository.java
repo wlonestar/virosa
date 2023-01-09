@@ -2,7 +2,10 @@ package com.wjl.virosa.modules.pins.repository;
 
 import com.wjl.virosa.modules.pins.model.entity.PinLike;
 import com.wjl.virosa.modules.pins.model.entity.PinLikeId;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -14,4 +17,11 @@ import java.util.List;
  */
 @Repository
 public interface PinLikeRepository extends JpaRepository<PinLike, PinLikeId> {
+
+  @Query(value = "select p.id.pinId, p.id.userId, p.type from PinLike p where p.id.userId = ?1")
+  List<PinLike> findAllByUserId(Long userId);
+
+  @Query(value = "select p.id.pinId, p.id.userId, p.type from PinLike p where p.id.userId = ?1")
+  Page<PinLike> findAllByUserIdAndPage(Long userId, Pageable pageable);
+
 }
