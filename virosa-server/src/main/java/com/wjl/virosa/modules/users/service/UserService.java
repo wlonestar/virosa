@@ -13,4 +13,16 @@ public interface UserService {
 
   List<User> selectAll();
 
+  List<String> selectAllUsernames();
+
+  List<String> selectAllEmails();
+
+  User selectByUsernameAndPassword(String username, String password);
+
+  User selectById(Long id);
+
+  boolean add(User user);
+
+  boolean update(User user);
+
 }

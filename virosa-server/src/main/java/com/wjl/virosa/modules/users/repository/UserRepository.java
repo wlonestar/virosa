@@ -2,7 +2,10 @@ package com.wjl.virosa.modules.users.repository;
 
 import com.wjl.virosa.modules.users.model.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
+
+import java.util.List;
 
 /**
  * @author <a href="mailto:wlonestar@163.com">wjl</a>
@@ -11,4 +14,13 @@ import org.springframework.stereotype.Repository;
  */
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {
+
+  @Query(value = "select username from sys_user", nativeQuery = true)
+  List<String> findUsernames();
+
+  @Query(value = "select email from sys_user", nativeQuery = true)
+  List<String> findEmails();
+
+  User findUserByUsernameAndPassword(String username, String password);
+
 }

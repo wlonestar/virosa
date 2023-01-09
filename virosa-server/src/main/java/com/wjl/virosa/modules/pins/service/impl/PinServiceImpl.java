@@ -52,8 +52,7 @@ public class PinServiceImpl implements PinService {
 
   @Override
   public PinView selectById(Long id) {
-    Optional<PinView> optional = pinViewRepository.findById(id);
-    return optional.orElse(null);
+    return pinViewRepository.findById(id).orElse(null);
   }
 
   @Override
@@ -68,7 +67,7 @@ public class PinServiceImpl implements PinService {
     if (!Objects.equals(newPin, null)) {
       newPin.setContent(pin.getContent());
       newPin.setUpdateTime(pin.getUpdateTime());
-      pinRepository.save(pin);
+      pinRepository.save(newPin);
       return true;
     }
     return false;

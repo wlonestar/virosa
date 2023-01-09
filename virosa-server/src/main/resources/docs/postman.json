@@ -1,7 +1,7 @@
 {
   "info": {
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-    "_postman_id": "42a00484-e7cb-471f-937e-ca14febc6ec3",
+    "_postman_id": "8160769e-93df-44a5-868f-32bef6500eaa",
     "name": "virosa"
   },
   "item": [
@@ -50,7 +50,7 @@
               }
             },
             "url": {
-              "raw": "http://localhost:8088/pin/all/author?authorId=934",
+              "raw": "http://localhost:8088/pin/all/author?authorId=481",
               "protocol": "http",
               "path": [
                 "pin",
@@ -64,7 +64,7 @@
               "query": [
                 {
                   "key": "authorId",
-                  "value": "934",
+                  "value": "481",
                   "description": "authorId"
                 }
               ],
@@ -117,7 +117,7 @@
               }
             },
             "url": {
-              "raw": "http://localhost:8088/pin/page/author?authorId=64",
+              "raw": "http://localhost:8088/pin/page/author?authorId=535",
               "protocol": "http",
               "path": [
                 "pin",
@@ -131,7 +131,7 @@
               "query": [
                 {
                   "key": "authorId",
-                  "value": "64",
+                  "value": "535",
                   "description": "authorId"
                 }
               ],
@@ -154,7 +154,7 @@
               }
             },
             "url": {
-              "raw": "http://localhost:8088/pin/single?id=700",
+              "raw": "http://localhost:8088/pin/single?id=990",
               "protocol": "http",
               "path": [
                 "pin",
@@ -167,7 +167,7 @@
               "query": [
                 {
                   "key": "id",
-                  "value": "700",
+                  "value": "990",
                   "description": "id"
                 }
               ],
@@ -184,7 +184,7 @@
             "method": "POST",
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"id\": 904,\n  \"content\": \"xmgjqd\",\n  \"createTime\": \"2023-01-06 22:27:21\",\n  \"updateTime\": \"2023-01-06 22:27:21\",\n  \"authorId\": 656\n}",
+              "raw": "{\n  \"id\": 265,\n  \"content\": \"v3e95l\",\n  \"createTime\": \"2023-01-09 21:18:12\",\n  \"updateTime\": \"2023-01-09 21:18:12\",\n  \"authorId\": 329\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -216,7 +216,7 @@
             "method": "PUT",
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"id\": 384,\n  \"content\": \"dyowvp\",\n  \"createTime\": \"2023-01-06 22:27:21\",\n  \"updateTime\": \"2023-01-06 22:27:21\",\n  \"authorId\": 445\n}",
+              "raw": "{\n  \"id\": 71,\n  \"content\": \"d1cbu0\",\n  \"createTime\": \"2023-01-09 21:18:12\",\n  \"updateTime\": \"2023-01-09 21:18:12\",\n  \"authorId\": 423\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -254,7 +254,7 @@
               }
             },
             "url": {
-              "raw": "http://localhost:8088/pin/delete?id=737",
+              "raw": "http://localhost:8088/pin/delete?id=794",
               "protocol": "http",
               "path": [
                 "pin",
@@ -267,7 +267,7 @@
               "query": [
                 {
                   "key": "id",
-                  "value": "737",
+                  "value": "794",
                   "description": "id"
                 }
               ],
@@ -277,6 +277,114 @@
             "header": []
           },
           "description": "delete pin by id"
+        }
+      ]
+    },
+    {
+      "name": "pin like controller",
+      "item": []
+    },
+    {
+      "name": "auth controller",
+      "item": [
+        {
+          "name": "user login\r\nTODO: can add login by username or email and password ?",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"username\": \"clarice.yundt\",\n  \"password\": \"7va8vm\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8088/auth/login",
+              "protocol": "http",
+              "path": [
+                "auth",
+                "login"
+              ],
+              "host": [
+                "localhost"
+              ],
+              "port": "8088",
+              "query": [],
+              "variable": []
+            },
+            "description": "user login\r\nTODO: can add login by username or email and password ?",
+            "header": []
+          },
+          "description": "user login\r\nTODO: can add login by username or email and password ?"
+        },
+        {
+          "name": "user register\r\nTODO: before register should confirm captcha by email",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"username\": \"clarice.yundt\",\n  \"password\": \"lxkbwe\",\n  \"email\": \"libby.morissette@hotmail.com\",\n  \"avatar\": \"or8mqc\",\n  \"joinTime\": \"2023-01-09 21:18:12\",\n  \"roleId\": 57\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8088/auth/register",
+              "protocol": "http",
+              "path": [
+                "auth",
+                "register"
+              ],
+              "host": [
+                "localhost"
+              ],
+              "port": "8088",
+              "query": [],
+              "variable": []
+            },
+            "description": "user register\r\nTODO: before register should confirm captcha by email",
+            "header": []
+          },
+          "description": "user register\r\nTODO: before register should confirm captcha by email"
+        },
+        {
+          "name": "user logout",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "type": "string",
+                  "description": "token",
+                  "value": "7krgc5",
+                  "hasItems": false
+                }
+              ]
+            },
+            "url": {
+              "raw": "http://localhost:8088/auth/logout",
+              "protocol": "http",
+              "path": [
+                "auth",
+                "logout"
+              ],
+              "host": [
+                "localhost"
+              ],
+              "port": "8088",
+              "query": [],
+              "variable": []
+            },
+            "description": "user logout",
+            "header": []
+          },
+          "description": "user logout"
         }
       ]
     }
